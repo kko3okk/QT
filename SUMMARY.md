@@ -33,5 +33,6 @@
 * [query\_sql](query_sql.md)
 * [db\_connection\_config](db_connection_config.md)
 * [Other Config](other-config/README.md)
+  * [ADD QT to AP](other-config/add-qt-to-ap.md)
   * [Analysis Preference](other-config/analysis-preference.md)
 
