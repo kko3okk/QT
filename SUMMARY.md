@@ -32,6 +32,7 @@
   * [example1 : UI 選項available 呈現字串與選取後, 往後送的字串不同](avail_data_method_list/example1-ui-available-cheng-zi-chuan-qu-wang-song-de-zi-chuan-bu-tong.md)
 * [query\_sql](query_sql.md)
 * [db\_connection\_config](db_connection_config.md)
+* [PlugIn class](plugin-class.md)
 * [Other Config](other-config/README.md)
   * [ADD QT to AP](other-config/add-qt-to-ap.md)
   * [Analysis Preference](other-config/analysis-preference.md)
