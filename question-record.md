@@ -22,5 +22,29 @@ if (isSparkMode) {
 }
 ```
 
-## 後續需要開放select 欄位到 pluginclass 裡面 , 
+{% hint style="info" %}
+因為Spark的關係 , 撈資料都是在同一座Spark create view 之後撈資料 ; 所以是合理的
+{% endhint %}
+
+## 後續需要開放select 欄位到 pluginclass 裡面 , 開發時間未定
+
+## 假如呼叫不到QueryToolService , 要如何解決 ?
+
+{% hint style="info" %}
+請檢查Web.xml裡面是否有這一段 ; 沒有的話請加上, 並且重啟Tomcat
+{% endhint %}
+
+```markup
+<servlet>
+	<servlet-name>queryToolService</servlet-name>
+	<servlet-class>com.tynesys.edatool.struts.query_tool.servlet.QueryToolService</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>queryToolService</servlet-name>
+	<url-pattern>/queryToolService/*</url-pattern>
+</servlet-mapping>
+```
+
+
 
