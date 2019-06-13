@@ -10,7 +10,7 @@
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-| view\_type |  |  |  |
+| view\_type |  | single / multiple |  |
 | avail\_from |  | constants / avail\_data\_method |  |
 | avail\_data\_method |  |  | 填入 取得 avail data 的 method ID, method id 會對應到&lt;avail\_data\_method\_list&gt; 的&lt;avail\_data\_method&gt; 的 ID |
 | is\_support\_im |  |  |  |
