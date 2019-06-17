@@ -20,6 +20,7 @@
 | start\_hhmm |  |  |  |
 | end\_date |  |  | DTN end\_date一定是today |
 | end\_hhmm |  |  |  |
+| max\_count |  |  | 選取天數的最大值 \(單位 : 天\) |
 
 ### past\_days\_opt 
 
