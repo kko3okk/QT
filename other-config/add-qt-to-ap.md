@@ -30,8 +30,8 @@ insert into edatool_tool_t (CATEGORY_ID, TOOL_ID, DISPLAY_NAME, DISPLAY_SEQ, WEB
 values ('DATASET_TOOL', 'DS_QUERY_TOOL', 'Query Tool', 8, '/edatool/query_tool/main.do', '/edatool3/images/ET_Query_tool.svg');
 
 //新增選取值
-insert into edatool_query_tool_plugin_t (QUERY_TOOL_ID, DISPLAY_NAME, CRITERIA_XML, UPDATE_TIME, DISPLAY_SEQ, PLUGIN_DB_ID, QUERY_TOOL_TYPE, STATUS, COMMENTS)
-values ('ET_QT1', 'QT1', '', to_date('10-10-2017', 'dd-mm-yyyy'), 3, '1', 'ET_QUERY_TOOL', '', '');
+insert into edatool_query_tool_plugin_t (QUERY_TOOL_ID, DISPLAY_NAME, CRITERIA_XML, UPDATE_TIME, DISPLAY_SEQ, PLUGIN_DB_ID, QUERY_TOOL_TYPE)
+values ('ET_QT1', 'QT1', '', to_date('10-10-2017', 'dd-mm-yyyy'), 3, '1', 'ET_QUERY_TOOL');
 ```
 
 ![&#x958B;&#x555F;Query Tool&#x6309;&#x9215;](../.gitbook/assets/image-2.png)
