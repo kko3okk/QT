@@ -37,4 +37,5 @@
   * [ADD QT to AP](other-config/add-qt-to-ap.md)
   * [Analysis Preference](other-config/analysis-preference.md)
 * [Question Record](question-record.md)
+* [需求清單](xu-qiu-qing-chan.md)
 
