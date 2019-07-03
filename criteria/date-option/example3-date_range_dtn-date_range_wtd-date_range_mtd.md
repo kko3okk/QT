@@ -22,5 +22,19 @@
 </criteria>
 ```
 
+```markup
+<arg name="WTD_start_date"         from_id="c_date_option.date_range_WTD"       data_type="string"  />
+<arg name="WTD_start_hhmm"         from_id="c_date_option.date_range_WTD"       data_type="string"  />
+<arg name="WTD_end_date"           from_id="c_date_option.date_range_WTD"       data_type="string"  />
+<arg name="WTD_end_hhmm"           from_id="c_date_option.date_range_WTD"       data_type="string"  />
+<arg name="WTD_start_time"         from_id="c_date_option.date_range_WTD"       data_type="date" format="yyyymmddhh24miss" />
+<arg name="WTD_end_time"           from_id="c_date_option.date_range_WTD"       data_type="date" format="yyyymmddhh24miss" />
 
+<arg name="MTD_start_date"         from_id="c_date_option.date_range_MTD"       data_type="string"  />
+<arg name="MTD_start_hhmm"         from_id="c_date_option.date_range_MTD"       data_type="string"  />
+<arg name="MTD_end_date"           from_id="c_date_option.date_range_MTD"       data_type="string"  />
+<arg name="MTD_end_hhmm"           from_id="c_date_option.date_range_MTD"       data_type="string"  />
+<arg name="MTD_start_time"         from_id="c_date_option.date_range_MTD"       data_type="date" format="yyyymmddhh24miss" />
+<arg name="MTD_end_time"           from_id="c_date_option.date_range_MTD"       data_type="date" format="yyyymmddhh24miss" />
+```
 
