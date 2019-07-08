@@ -25,7 +25,9 @@
 | use\_connection\_id | V |  |  |
 | mode |  | plugin\_class/  |  |
 | class\_name |  |  |  |
-| plugin\_opt |  |  |  |
+| plugin\_opt |  | build\_sql\_and\_create\_view |  |
+| process\_result |  |  | true/false |
+| process\_result\_opt |  |  |  |
 
 #### sql
 
