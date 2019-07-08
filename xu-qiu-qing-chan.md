@@ -27,7 +27,7 @@
 ```markup
 <criteria id="lot_id_list" view_type="key_in" is_required="false" is_support_file_upload="true" label="Lot ID List" result_args="lot_id_list" next_criteria="current_location_list">
 	<keyin_opt row="10" width="300" is_support_source_data_set="true">
-	<is_support_source_data_set_opt>#product_name#</is_support_source_data_set_opt>
+	<source_data_set_opt>#product_name#</source_data_set_opt>
 		<desc>please key in LOT id list , separated by ',' or change line.... </desc>
 	</keyin_opt>						
 	<file_upload_opt  is_skip_first="true">
@@ -41,7 +41,7 @@
 </criteria>
 ```
 
-3. source data set  &  single select 要新增預選機制 
+3. source data set  &  single select / multi-select 要新增預選機制 
 
 * 可設定多個 , 先找到先贏 ; 沒找到也不會報錯 , 就不預選
 
