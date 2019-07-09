@@ -17,6 +17,7 @@ next_criteria="#radio_result#" >
 |  |  | [key\_in](../key-in/) |  |
 |  |  | [select](../select/) |  |
 |  |  | [checkbox](../checkbox/) |  |
+|  |  | [merge\_column\_picker](../merge_column_picker.md) |  |
 | is\_required | V | true / false |  |
 | label | V |  | 自行定義要顯示在UI  畫面的 Criteria 名稱 |
 | result\_args | V |  | 自行宣告該 Criteria 輸出的變數名稱，該變數名稱，將對應到&lt;global\_arfs\_define&gt; 中的  arg\_name |

@@ -27,6 +27,7 @@
     * [example3 : Use is\_support\_im](criteria/select/example3-use-is_support_im.md)
   * [CheckBox](criteria/checkbox/README.md)
     * [example1 : retest / rework 重工重檢](criteria/checkbox/example1-retest-rework-zhong-gong-zhong.md)
+  * [merge\_column\_picker](criteria/merge_column_picker.md)
 * [global\_args\_define](untitled.md)
 * [avail\_data\_method\_list](avail_data_method_list/README.md)
   * [example1 : UI 選項available 呈現字串與選取後, 往後送的字串不同](avail_data_method_list/example1-ui-available-cheng-zi-chuan-qu-wang-song-de-zi-chuan-bu-tong.md)
@@ -37,5 +38,7 @@
   * [ADD QT to AP](other-config/add-qt-to-ap.md)
   * [Analysis Preference](other-config/analysis-preference.md)
 * [Question Record](question-record.md)
-* [需求清單](xu-qiu-qing-chan.md)
+* [需求清單](xu-qiu-qing-chan/README.md)
+  * [S1-636](xu-qiu-qing-chan/s1-636.md)
+  * [S1 - 634](xu-qiu-qing-chan/s1-634.md)
 
