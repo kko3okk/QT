@@ -20,6 +20,8 @@ insert into tyne_menu_t (menu_name, parent_menu_index, display_seq, web_ui_cmd, 
            '/edatool/query_tool/ds_main.do?analysis_id=QT1&query_ds_id=QT1',
            'QT1'
     from dual;
+insert into edatool_query_tool_plugin_t (QUERY_TOOL_ID, DISPLAY_NAME, CRITERIA_XML, UPDATE_TIME, DISPLAY_SEQ, PLUGIN_DB_ID, QUERY_TOOL_TYPE, STATUS, COMMENTS)
+values ('QT1', 'QT1', '', to_date('03-07-2019', 'dd-mm-yyyy'), 1, '1', 'DS_FUNCTION', '', '');
 ```
 
 ## 開啟ET\_QT
