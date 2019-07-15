@@ -39,6 +39,7 @@
   * [Analysis Preference](other-config/analysis-preference.md)
 * [Question Record](question-record.md)
 * [需求清單](xu-qiu-qing-chan/README.md)
+  * [S1-563](xu-qiu-qing-chan/s1-563.md)
   * [S1-636](xu-qiu-qing-chan/s1-636.md)
   * [S1-634](xu-qiu-qing-chan/s1-634.md)
 
