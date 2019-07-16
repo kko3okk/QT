@@ -15,6 +15,12 @@
 | avail\_data\_method |  |  | 填入 取得 avail data 的 method ID, method id 會對應到&lt;avail\_data\_method\_list&gt; 的&lt;avail\_data\_method&gt; 的 ID |
 | is\_support\_im |  |  |  |
 | max\_count |  |  | 選取參數的最大值 |
+| default\_select\_when\_one\_available  |  | true / false | 預選該唯一的available |
+| default\_select\_and\_hide\_when\_one\_available |  | true / false | 預選且該criteria 隱藏 |
+
+{% hint style="info" %}
+default\_select\_when\_one\_available / default\_select\_and\_hide\_when\_one\_available : **不能同時設定 , 只能設定一種**
+{% endhint %}
 
 ### avail\_constants
 
