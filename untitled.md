@@ -2,28 +2,22 @@
 
 ```markup
 <global_args_define>
-        <arg name="date_option"        	from_id="c_date_opt"                     	data_type="string" />
-        <arg name="past_days"          	from_id="c_date_option.past_day"         	data_type="number" />
-        <arg name="past_days_start_hh"  from_id="c_date_option.past_day"         	data_type="string" />
-        <arg name="past_days_start_mm"  from_id="c_date_option.past_day"         	data_type="string" />
-        <arg name="start_time"         	from_id="c_date_option.date_range"       	data_type="date" format="yyyyMMddHHmm" />
-        <arg name="end_time"           	from_id="c_date_option.date_range"       	data_type="date" format="yyyyMMddHHmm" />
-        <arg name="week_no"  from_id="c_date_option.week"             data_type="string" />
-        <arg name="month_no"  from_id="c_date_option.month"             data_type="string" />
-        <arg name="sbt_id_list"     	from_id="sbt_id_list"         			data_type="string_array"  />
-        <arg name="step_id_list"     	from_id="step_id_list"         			data_type="string_array"  />
-        
-        <arg name="sbt_id_list.source_data_set_id" from_id="source_data_set_distinct_data"          data_type="string" />
-        <arg name="sbt_id_list.column_name" from_id="source_data_set_distinct_data"                 data_type="string"  />
-        <arg name="sbt_id_list.distinct_data_list" from_id="source_data_set_distinct_data"          data_type="string_array"  />
-        
-        <arg name="fuseid_list.source_data_set_id" from_id="source_data_set_distinct_data"          data_type="string" />
-        <arg name="fuseid_list.column_name" from_id="source_data_set_distinct_data"                 data_type="string"  />
-        <arg name="fuseid_list.distinct_data_list" from_id="source_data_set_distinct_data"          data_type="string_array"  />
-        
-        <arg name="d2id_list.source_data_set_id" from_id="source_data_set_distinct_data"          data_type="string" />
-        <arg name="d2id_list.column_name" from_id="source_data_set_distinct_data"                 data_type="string"  />
-        <arg name="d2id_list.distinct_data_list" from_id="source_data_set_distinct_data"          data_type="string_array"  />
+    <arg name="date_option"        	from_id="c_date_opt"                     	data_type="string" />
+    <arg name="past_days"          	from_id="c_date_option.past_day"         	data_type="number" />
+    <arg name="past_days_start_hh"  from_id="c_date_option.past_day"         	data_type="string" />
+    <arg name="past_days_start_mm"  from_id="c_date_option.past_day"         	data_type="string" />
+    <arg name="start_time"         	from_id="c_date_option.date_range"       	data_type="date" format="yyyyMMddHHmm" />
+    <arg name="end_time"           	from_id="c_date_option.date_range"       	data_type="date" format="yyyyMMddHHmm" />
+    <arg name="week_no"  from_id="c_date_option.week"             data_type="string" />
+    <arg name="month_no"  from_id="c_date_option.month"             data_type="string" />
+    <arg name="sbt_id_list"     	from_id="sbt_id_list"         			data_type="string_array"  />
+    <arg name="step_id_list"     	from_id="step_id_list"         			data_type="string_array"  />
+    
+    <arg name="d2id_list.source_data_set_id" from_id="source_data_set_distinct_data"          data_type="string" />
+    <arg name="d2id_list.column_name" from_id="source_data_set_distinct_data"                 data_type="string"  />
+    <arg name="d2id_list.distinct_data_list" from_id="source_data_set_distinct_data"          data_type="string_array"  />
+    
+    <arg name="V3"     defult_value="1,2,3"/>
 </global_args_define>
 ```
 
