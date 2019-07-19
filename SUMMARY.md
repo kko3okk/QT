@@ -9,6 +9,7 @@
   * [Step3 : 撈取資料](step-by-step-take-sms_summary-as-an-example/step3-ding-columnmapping.md)
   * [Stpe4 : 新增至EDA中](step-by-step-take-sms_summary-as-an-example/stpe4-xin-zeng-zhi-eda-zhong.md)
 * [Criteria Tool](criteria/README.md)
+  * [Query page](criteria/query_page.md)
   * [Criteria](criteria/criteria/README.md)
     * [example1 : use visiablity](criteria/criteria/example1-use-visiablity.md)
   * [Criteria Group](criteria/criteria-group.md)
