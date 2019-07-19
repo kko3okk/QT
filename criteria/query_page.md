@@ -9,5 +9,5 @@
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
 | base\_query\_tool\_id |  |  | 繼承XML的名稱 |
-| disable\_save\_button |  | true / false |  |
+| disable\_save\_button |  | true / false | 顯示 / 隱藏 save button |
 
