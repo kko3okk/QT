@@ -32,6 +32,12 @@
 | :--- | :--- | :--- | :--- |
 | is\_skip\_first |  | true / false |  |
 
+### source\_data\_set\_opt
+
+| Attributes | Required | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+| pre\_select |  |  | 預選值 |
+
 ### support\_file\_type
 
 規定可被上傳檔案的副檔名
