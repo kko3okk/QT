@@ -16,6 +16,17 @@
 
 ```
 
+```markup
+<criteria id="c_is_include_retest"  view_type="checkbox" is_required="false" label="重工/重测"  result_args="is_include_old_data">
+    <checkbox_opt check_type="multi">
+        <check_item value="TEST1"  display_name="A" default_check="true" />
+		<check_item value="TEST2"  display_name="B" />
+		<check_item value="TEST3"  display_name="C" default_check="true" />
+		<check_item value="TEST4"  display_name="D" default_check="false" />
+    </checkbox_opt>
+</criteria>
+```
+
 ### checkbox\_opt
 
 | Attributes | Required | Parameters | Description |
