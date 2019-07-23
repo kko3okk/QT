@@ -26,6 +26,7 @@
     * [example1 : avail\_from = constants](criteria/select/example1-avail_from-constants.md)
     * [example2 : avail\_from = avail\_data\_method](criteria/select/example2-avail_from-avail_data_method.md)
     * [example3 : Use is\_support\_im](criteria/select/example3-use-is_support_im.md)
+  * [Radio Button](criteria/radio-button.md)
   * [CheckBox](criteria/checkbox/README.md)
     * [example1 : retest / rework 重工重檢](criteria/checkbox/example1-retest-rework-zhong-gong-zhong.md)
   * [merge\_column\_picker](criteria/merge_column_picker.md)

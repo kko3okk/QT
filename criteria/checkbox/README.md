@@ -20,7 +20,8 @@
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-| check\_type |  | single |  |
+| check\_type |  | single / multi |  |
+| max\_count |  |  | 最多被選擇的數量 |
 
 #### check\_item
 
