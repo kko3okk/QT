@@ -20,16 +20,16 @@
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-| check\_type |  | single / multi |  |
+| check\_type | V | single / multi | single 只顯示第一個check\_item |
 | max\_count |  |  | 最多被選擇的數量 |
 
 #### check\_item
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-| value |  |  |  |
-| display\_name |  |  |  |
-| default\_check |  |  |  |
+| value | V |  |  |
+| display\_name | V |  |  |
+| default\_check |  | true / false | 預設值false |
 
 ### criteria\_sql
 

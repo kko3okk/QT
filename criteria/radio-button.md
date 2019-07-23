@@ -10,5 +10,17 @@
 </criteria>
 ```
 
+### radio\_opt
 
+| Attributes | Required | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+|  |  |  |  |
+
+#### radio\_item
+
+| Attributes | Required | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+| value | V |  | 真正值 |
+| display\_name | V |  | UI顯示值 |
+| default\_check |  | true / false | 預設值為false |
 
