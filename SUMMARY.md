@@ -34,6 +34,7 @@
 * [avail\_data\_method\_list](avail_data_method_list/README.md)
   * [example1 : UI 選項available 呈現字串與選取後, 往後送的字串不同](avail_data_method_list/example1-ui-available-cheng-zi-chuan-qu-wang-song-de-zi-chuan-bu-tong.md)
 * [query\_sql](query_sql/README.md)
+  * [example1 : Innotron 轉置功能](query_sql/example1-innotron-zhuan-zhi-gong-neng.md)
   * [輸出欄位定義方式](query_sql/shu-chu-lan-wei-ding-yi-fang-shi.md)
 * [db\_connection\_config](db_connection_config.md)
 * [PlugIn class](plugin-class.md)
