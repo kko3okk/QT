@@ -20,16 +20,57 @@
 
 ### query\_sql
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| use\_connection\_id | V |  |  |
-| mode |  | plugin\_class/  |  |
-| class\_name |  |  |  |
-| plugin\_opt |  | build\_sql\_and\_create\_view |  |
-| process\_result |  |  | true/false |
-| process\_result\_opt |  |  |  |
-
-#### sql
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Attributes</th>
+      <th style="text-align:left">Required</th>
+      <th style="text-align:left">Parameters</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">use_connection_id</td>
+      <td style="text-align:left">V</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">mode</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">plugin_class/</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">class_name</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">plugin_opt</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">build_sql_and_create_view</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">process_result</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">true/false</td>
+      <td style="text-align:left">&#x555F;&#x52D5;Innotron&#x8F49;&#x7F6E;&#x529F;&#x80FD;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">process_result_opt</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>DS_DATA_PATH_SEL.DATA_PATH_METROLOGY</p>
+        <p>_WAFER_SUMMARY_V@@LOT</p>
+      </td>
+      <td style="text-align:left">&#x50B3;&#x905E;&#x53C3;&#x6578;</td>
+    </tr>
+  </tbody>
+</table>#### sql
 
 編輯點GO之後做的動作
 
