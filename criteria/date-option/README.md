@@ -21,6 +21,8 @@
 | end\_date |  |  | DTN end\_date一定是today |
 | end\_hhmm |  |  |  |
 | max\_count |  |  | 選取天數的最大值 \(單位 : 天\) |
+| date\_column\_name\_list |  |  | 需要處理的欄位 |
+| date\_src\_mode |  |  | 處理日期模式 |
 
 ### past\_days\_opt 
 
