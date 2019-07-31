@@ -1,7 +1,7 @@
-# expand\_or\_collapse
+# sel\_type = all
 
 ```markup
-<criteria id="c_optional_group" view_type="criteria_group" ui_type="expand_or_collapse" is_required="false" label="Additional Options"   default_expand="true" >
+<criteria id="c_optional_group" view_type="criteria_group" sel_type="all" is_required="false" label="Additional Options"   default_expand="true" >
     <sub_criteria_list>
         <sub_criteria key="c_equip_group_list"/>
         <sub_criteria key="c_defect_code_list"/>
@@ -19,5 +19,5 @@
 </criteria>        
 ```
 
-![UI&#x5448;&#x73FE;&#x756B;&#x9762; \(Additional Options&#x90E8;&#x5206;\)](../.gitbook/assets/unnamed.png)
+![UI&#x5448;&#x73FE;&#x756B;&#x9762; \(Additional Options&#x90E8;&#x5206;\)](../../.gitbook/assets/unnamed.png)
 
