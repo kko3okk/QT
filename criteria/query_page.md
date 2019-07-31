@@ -6,6 +6,12 @@
 </query_page>
 ```
 
+```markup
+<query_page plugin_db_id="2" forward_url="/eeas-rest/setup/SPCIndicator/main" route_url="#/eeas/setting/setup/detail">
+........
+</query_page>
+```
+
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
 | base\_query\_tool\_id |  |  | 繼承XML的名稱 |
