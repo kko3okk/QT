@@ -30,6 +30,7 @@
   * [Radio Button](criteria/radio-button.md)
   * [CheckBox](criteria/checkbox/README.md)
     * [example1 : retest / rework 重工重檢](criteria/checkbox/example1-retest-rework-zhong-gong-zhong.md)
+  * [sort\_hst](criteria/sort_hst.md)
   * [merge\_column\_picker](criteria/merge_column_picker.md)
 * [global\_args\_define](untitled.md)
 * [avail\_data\_method\_list](avail_data_method_list/README.md)
