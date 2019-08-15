@@ -60,11 +60,11 @@
     <sort_hst  sort_hst_key="array_glass_hst" display_name="Array Glass History">
         <sort_hst_query_opt  join_column="glass_id"    />
         
-        <criteria id="step_id_list" view_type="select" is_required="false" label="STEP_ID" result_args="step_id_list">
+        <criteria id="step_id_list" view_type="select" is_required="false" label="STEP_ID">
             <select_opt view_type="multiple" avail_from="avail_data_method" avail_data_method="get_avail_step_id_list" />
         </criteria>
         
-        <criteria id="item_list"  view_type="select" is_required="false" label="ITEM LIST"  result_args="item_list">
+        <criteria id="item_list"  view_type="select" is_required="false" label="ITEM LIST">
         	<select_opt view_type="multiple" avail_from="constants" />
         	<avail_constants>glass_id,equip_id,chip_start_time</avail_constants>
         </criteria>
