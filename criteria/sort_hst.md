@@ -105,22 +105,6 @@
 | :--- | :--- | :--- | :--- |
 | join\_column | V |  | 被串接資料源, join的欄位名稱 |
 
-### avail\_step\_sql
-
-#### 元件上取得step\_id 的sql編寫
-
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| use\_connection\_id | V |  | 使用connection id |
-
-### avail\_item\_list
-
-原件上取得item\_list ; 目前為定義出現哪些欄位
-
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
-
 ### time\_sql
 
 取得sql要使用的時間欄位 , **start\_time &  end\_time** 為必要欄位名稱
