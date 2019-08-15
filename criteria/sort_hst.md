@@ -54,6 +54,40 @@
 </sort_hst_define>
 ```
 
+```markup
+<sort_hst_define>
+    <sort_hst  sort_hst_key="array_glass_hst" display_name="Array Glass History">
+        <sort_hst_query_opt  join_column="glass_id"    />
+        
+        <criteria id="step_id_list" view_type="select" is_required="false" label="STEP_ID" result_args="step_id_list">
+            <select_opt view_type="multiple" avail_from="avail_data_method" avail_data_method="get_avail_step_id_list" />
+        </criteria>
+        
+        <criteria id="item_list"  view_type="select" is_required="false" label="ITEM LIST"  result_args="item_list">
+        	<select_opt view_type="multiple" avail_from="constants" />
+        	<avail_constants>glass_id,equip_id,chip_start_time</avail_constants>
+        </criteria>
+        
+        <time_sql use_connection_id="saturn">
+                select min(data_start_time) as start_time , max(data_end_time) as end_time from array_cmn_glass_t where glass_id in (#SRC_JOIN_ID_LIST#) 
+        </time_sql>
+        
+        <sql use_connection_id="saturn">
+                select * from array_glass_hst_t where step_id in (#SORT_STEP_LIST#) and  glass_start_time between #START_TIME# and #END_TIME# 
+        </sql>
+    </sort_hst>
+</sort_hst_define>
+
+
+<avail_data_method_list>
+    <avail_data_method id="get_avail_step_id_list">
+        <query_sql use_connection_id="saturn" >select step_id from array_step_t </query_sql>
+    </avail_data_method>
+</avail_data_method_list>
+
+
+```
+
 {% hint style="info" %}
 後續會提供出一版base Sort Hst xml 做使用
 {% endhint %}
