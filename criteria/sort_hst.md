@@ -15,7 +15,8 @@
 | src\_join\_column | V |  | 來源資料要被join的欄位 |
 
 ```markup
-<sort_hst_define>
+<sort_hst_define id="">
+
     <sort_hst  sort_hst_key="array_glass_hst" display_name="Array Glass History">
         <sort_hst_query_opt  join_column="glass_id"    />
         <avail_step_sql use_connection_id="saturn">
@@ -55,7 +56,7 @@
 ```
 
 ```markup
-<sort_hst_define>
+<sort_hst_define id="type" label="Sort Area Type">
     <sort_hst  sort_hst_key="array_glass_hst" display_name="Array Glass History">
         <sort_hst_query_opt  join_column="glass_id"    />
         
