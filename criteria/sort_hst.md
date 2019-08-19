@@ -15,47 +15,6 @@
 | src\_join\_column | V |  | 來源資料要被join的欄位 |
 
 ```markup
-<sort_hst_define id="">
-
-    <sort_hst  sort_hst_key="array_glass_hst" display_name="Array Glass History">
-        <sort_hst_query_opt  join_column="glass_id"    />
-        <avail_step_sql use_connection_id="saturn">
-            select step_id from array_step_t
-        </avail_step_sql>
-        <avail_item_list> 
-                <column src_col_name="glass_id" data_type="VARCHAR2" display_name="glass_id"  />
-                <column src_col_name="equip_id" data_type="VARCHAR2" display_name="equip_id"  />
-                <column src_col_name="glass_start_time" data_type="DATE" display_name="glass_start_time"  />
-        </avail_item_list>
-        <time_sql use_connection_id="saturn">
-                select min(data_start_time) as start_time , max(data_end_time) as end_time from array_cmn_glass_t where glass_id in (#SRC_JOIN_ID_LIST#) 
-        </time_sql>
-        <sql use_connection_id="saturn">
-                select * from array_glass_hst_t where step_id in (#SORT_STEP_LIST#) and  glass_start_time between #START_TIME# and #END_TIME# 
-        </sql>
-    </sort_hst>
-
-    <sort_hst  sort_hst_key="cell2_chip_hst" display_name="Cell2 Chip History">
-        <sort_hst_query_opt  join_column="chip_id"    />
-        <avail_step_sql use_connection_id="saturn">
-            select step_id from cell2_step_t
-        </avail_step_sql>
-        <avail_item_list> 
-                <column src_col_name="chip_id" data_type="VARCHAR2" display_name="chip_id"  />
-                <column src_col_name="equip_id" data_type="VARCHAR2" display_name="equip_id"  />
-                <column src_col_name="chip_start_time" data_type="DATE" display_name="chip_start_time"  />
-        </avail_item_list>
-        <time_sql use_connection_id="saturn">
-                select min(data_start_time) as start_time , max(data_end_time) as end_time from cell2_cmn_chip_t where glass_id in (#SRC_JOIN_ID_LIST#) 
-        </time_sql>
-        <sql use_connection_id="saturn">
-                select * from cell2_chip_hst_t where step_id in (#SORT_STEP_LIST#) and  chip_start_time between #start_time# and #end#
-        </sql>
-    </sort_hst>
-</sort_hst_define>
-```
-
-```markup
 <sort_hst_define id="type" label="Sort Area Type">
     <sort_hst  sort_hst_key="array_glass_hst" display_name="Array Glass History">
         <sort_hst_query_opt  join_column="glass_id"    />
