@@ -1,7 +1,10 @@
 # merge\_column\_picker
 
 ```markup
-<criteria id="merge"  view_type="merge_column_picker" is_required="false" label="Merge" result_args="merge"></criteria>
+<criteria id="merge"  view_type="merge_column_picker" is_required="false" label="Merge" result_args="merge">
+    <opt id="merge.mergeSource" pre_select="im_file_local_file"></opt>
+    <opt id="merge.mergeType"   pre_select="left_join"></opt>
+</criteria>
 ```
 
 目前有使用到sourceDataSet , 在global\_args\_define**必須**新增 
