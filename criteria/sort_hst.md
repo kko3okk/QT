@@ -1,7 +1,7 @@
 # sort\_hst
 
 ```markup
-<criteria id="sort_hst"  view_type="sort_hst" is_required="false" label="Sort Area" pre_criteria="step_id_list">
+<criteria id="sort_hst"  view_type="sort_hst" is_required="false" label="Sort Area" pre_criteria="step_id_list" result_args="sort_hst">
     <sort_hst  sort_hst_key="array_glass_hst" src_join_column="array_glass_id"  />
     <sort_hst  sort_hst_key="cell2_chip_hst" src_join_column="chip_id"  />
 </criteria>
