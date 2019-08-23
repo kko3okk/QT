@@ -52,6 +52,14 @@
 後續會提供出一版base Sort Hst xml 做使用
 {% endhint %}
 
+{% hint style="info" %}
+非常重要  :  sort\_hst\_define 中的 where condition 使用到的變數 , 
+
+1. 會先檢查ArgMap裡面有沒有存在   \(強烈建議在第一組資料生成時 , 就把變數值準備好\)
+
+2. 沒有的話就會從第一組資料 , 做distinct後取得
+{% endhint %}
+
 ### sort\_hst
 
 | Attributes | Required | Parameters | Description |
