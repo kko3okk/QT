@@ -18,8 +18,7 @@
   * action\_code="get\_avail\_data"
   * 取得值之後, 回填到指定的result\_arg
 * type="class"
-  * action\_code="preProcessArgMap"
-  * 沿用之前plugin class裡面的**preProcessArgMap**
+  * action\_code="nextAction"
 
 
 
