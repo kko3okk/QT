@@ -32,6 +32,7 @@
     * [example1 : retest / rework 重工重檢](criteria/checkbox/example1-retest-rework-zhong-gong-zhong.md)
   * [sort\_hst](criteria/sort_hst.md)
   * [merge\_column\_picker](criteria/merge_column_picker.md)
+  * [next\_action](criteria/next_action.md)
 * [global\_args\_define](untitled.md)
 * [avail\_data\_method\_list](avail_data_method_list/README.md)
   * [example1 : UI 選項available 呈現字串與選取後, 往後送的字串不同](avail_data_method_list/example1-ui-available-cheng-zi-chuan-qu-wang-song-de-zi-chuan-bu-tong.md)
