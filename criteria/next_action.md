@@ -21,4 +21,5 @@
   * 假如有更新舊有的Arg , 需要注意是否UI會同步更新
   * 選值的過程中 ,  需要注意是否都有呼叫到 next\_action  \(會影響ArgMap的正確性\) 
 * 回傳值為ArrayList , 已有值做更新 , 不存在就新增 \(用name來判斷\)
+* 前端呼叫後端的action\_code = "nextAction" : 需傳遞參數 - criteria\_id
 
