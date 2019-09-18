@@ -15,6 +15,7 @@
   * [Criteria Group](criteria/criteria-group/README.md)
     * [sel\_type = all](criteria/criteria-group/expand_or_collapse.md)
   * [Date Option](criteria/date-option/README.md)
+    * [example4 :使用source dataset 取max/min date value](criteria/date-option/example4-shi-yong-source-dataset-qu-maxmin-date-value.md)
     * [example1 : past\_day](criteria/date-option/example1-past_day.md)
     * [example2 : date\_range](criteria/date-option/example2-date_range.md)
     * [example3 :  past\_hours](criteria/date-option/example3-past_hours.md)

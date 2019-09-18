@@ -23,6 +23,7 @@
 | max\_count |  |  | 選取天數的最大值 \(單位 : 天\) |
 | date\_column\_name\_list |  |  | 需要處理的欄位 |
 | date\_src\_mode |  |  | 處理日期模式 |
+| is\_support\_source\_data\_set |  | true / false | 預設false , 只有在ET Mode 能使用 |
 
 ### past\_days\_opt 
 
