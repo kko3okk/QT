@@ -27,6 +27,8 @@ next_criteria="#radio_result#" >
 | next\_criteria |  |  | 填入 UI 畫面要出現的下一個 Criteria ID \(**使用criteria\_group的時候沒有用**\) |
 | mode |  | OLD / AS\_CRITERIA | 控制支援模式 |
 | is\_support\_file\_upload |  | true / false |  |
+| is\_support\_all\_flag |  | true / false | 控制選項是否出現ALL Button |
+| all\_flag\_var |  | ex : param\_name\_list\_all | 紀錄all flag是否開啟的參數 |
 | visiablity |  | hidden | 若設定 visiablity="hidden"，表示該 criteria 隱藏不顯示。 目前提供此屬性的 criteria 有 : DTN、WTD、MTD |
 | sel\_type |  | [all ](../criteria-group/expand_or_collapse.md)/ radio / check | all :全部sub criteria 都直接出現 \(default\)        radio : 多選一                                                      check : 多選N 模式 |
 | default\_expand |  | true / false | sel\_type= all 才有作用 |
