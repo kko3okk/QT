@@ -1,5 +1,7 @@
 # sel\_type = all
 
+
+
 ```markup
 <criteria id="c_optional_group" view_type="criteria_group" sel_type="all" is_required="false" label="Additional Options"   default_expand="true" >
     <sub_criteria_list>

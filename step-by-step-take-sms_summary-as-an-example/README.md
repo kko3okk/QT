@@ -4,8 +4,7 @@
 
 ![](../.gitbook/assets/it.png)
 
-{% code-tabs %}
-{% code-tabs-item title="SMS\_SUMMARY.xml" %}
+{% code title="SMS\_SUMMARY.xml" %}
 ```markup
 <query_page plugin_db_id="2">
     <criteria_list criteria_seq="c_date_opt,lot_id_list,custom_device_list,step_id_list,param_id_list">
@@ -125,6 +124,5 @@
     </db_connection_config>
 </query_page>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
