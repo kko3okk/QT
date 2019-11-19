@@ -18,4 +18,6 @@
 | disable\_save\_button |  | true / false | 顯示 / 隱藏 save button |
 | forward\_url |  |  | 導向目標網址 |
 | route\_url |  |  | 與forward\_url配對 |
+| enable\_help\_icon |  | true / false | 預設值為false |
+| help\_file\_location |  |  | help file放置的路徑 |
 
