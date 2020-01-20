@@ -19,5 +19,19 @@
 
 
 
+### 2020/01/20 討論紀錄
+
+view\_type = 'radio' , 新增顯示模式 : radio or button
+
+假如有元件沒有實作next\_criteria , 都需要被實作 \(希望元件基本功能能用繼承時做\)
+
+原本的Criteria Group要變成定義這一群有哪些Criteria
+
+
+
+
+
+
+
 
 
