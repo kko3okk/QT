@@ -1,4 +1,4 @@
-# Question Record
+# Troubleshooting
 
 ## 系統mode = spark時, db\_connection\_config 的設定沒用  ?
 
@@ -46,5 +46,33 @@ if (isSparkMode) {
 </servlet-mapping>
 ```
 
+## 外部 link to EDA - QT , 查出來的結果不是我從 URL 帶進去的兩個 glass\_id ?
 
+{% hint style="info" %}
+請確認是否有達到2個前提
+
+1.Load10 config: QT.DRILL\_DOWN\_DATA\_MAPPING\_CLASS\_NAME, 設定外部 Driil Down 的資訊替換成 DS Query Tool 可執行的相關程式路徑
+
+2.該路徑下是否有放替換的程式 \(function名稱請參考以下\)
+{% endhint %}
+
+```java
+package com.tynesys.drilldown;
+
+import com.tynesys.edatool.struts.query_tool.bean.CriteriaDataMap;
+import com.tynesys.framework.logon.LCDDrillDown;
+
+public class drillDownSample {
+	
+	public CriteriaDataMap replaceValue(LCDDrillDown drillDownObj, CriteriaDataMap o_criteriaDataMap){
+		
+		String value = drillDownObj.get("COMPONENT_ID_LIST");
+		
+		o_criteriaDataMap.getArgInfo("glass_list").setData_Value(value);
+		
+		return o_criteriaDataMap;
+	}
+
+}
+```
 
