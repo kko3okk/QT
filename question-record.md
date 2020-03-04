@@ -54,6 +54,12 @@ if (isSparkMode) {
 2.該路徑下是否有放替換的程式 \(function名稱請參考以下\)
 {% endhint %}
 
+### URL範例
+
+```java
+http://192.168.0.113:8056/AYDA_CSOTT6_APT_KEN_TEST/logon.do?USER_ID=admin&username=admin&DIRECT_RUN_PREF=Y&direct_run_mode=REPLACE_DATA_WITH_COMPONENT&refer_analysis_id=QT1&COMPONENT_TYPE=ft_lot_id_list&COMPONENT_ID_LIST=1,2,3&CONFIG_DATASEL_SELECTED=24828&target_shop=ARRAY
+```
+
 ```java
 package com.tynesys.drilldown;
 
