@@ -26,8 +26,6 @@ if (isSparkMode) {
 因為Spark的關係 , 撈資料都是在同一座Spark create view 之後撈資料 ; 所以是合理的
 {% endhint %}
 
-## 後續需要開放select 欄位到 pluginclass 裡面 , 開發時間未定
-
 ## 假如呼叫不到QueryToolService , 要如何解決 ?
 
 {% hint style="info" %}
