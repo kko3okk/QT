@@ -1,5 +1,7 @@
 # Query page
 
+
+
 ```markup
 <query_page base_query_tool_id="base" disable_save_button="true">
 ....
