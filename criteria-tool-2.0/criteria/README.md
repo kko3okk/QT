@@ -1,5 +1,13 @@
 # Criteria
 
+{% hint style="warning" %}
+1. 需要Review 目前有哪些元件 ; 以及內容是否有作修改
+
+2. ui\_group\_style 命名需要定義 \(Wen會提供class名稱\)
+
+3.T7 DS 畫面 , 目前html是不同一份 \(需要再確認 \)  ; 顏色/展開 是否能用設定控制 \(OK\)
+{% endhint %}
+
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
 | id | V |  |  |
@@ -17,14 +25,6 @@
 |  |  | expand\_or\_collapse | Group呈現縮合功能 |
 | ui\_group\_style |  |  | 對照CSS要呈現什麼樣子 |
 | ui\_group\_default\_expand |  | true/false | 縮合的預設值 |
-
-{% hint style="info" %}
-1. 需要Review 目前有哪些元件 ; 以及內容是否有作修改
-
-2. ui\_group\_style 命名需要定義 \(Wen會提供class名稱\)
-
-3.T7 DS 畫面 , 目前html是不同一份 \(需要再確認 \)  ; 顏色/展開 是否能用設定控制 \(OK\)
-{% endhint %}
 
 
 
