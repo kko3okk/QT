@@ -46,6 +46,7 @@
     * [view\_type="date"](criteria-tool-2.0/criteria/view_type-date.md)
     * [view\_type="criteria\_selecter"](criteria-tool-2.0/criteria/view_type-criteria_selecter.md)
     * [view\_type="data\_column\_picker"](criteria-tool-2.0/criteria/view_type-data_column_picker.md)
+    * [view\_type="ui\_group"](criteria-tool-2.0/criteria/view_type-ui_group.md)
     * [view\_type="key\_in"](criteria-tool-2.0/criteria/view_type-key_in/README.md)
       * [example1 : use is\_support\_file\_upload](criteria-tool-2.0/criteria/view_type-key_in/example1-use-is_support_file_upload.md)
       * [example2 : use is\_support\_im](criteria-tool-2.0/criteria/view_type-key_in/example2-use-is_support_im.md)
