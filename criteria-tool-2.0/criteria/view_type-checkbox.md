@@ -25,7 +25,6 @@
 		<check_item value="cell2_panel_his"  display_name="Cell2 Panel History"/>
 	</checkbox_opt>
 </criteria>
-
 ```
 
 ### Criteria
