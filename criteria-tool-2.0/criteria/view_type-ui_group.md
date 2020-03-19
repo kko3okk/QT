@@ -11,3 +11,14 @@
 
 ![](../../.gitbook/assets/image-9.png)
 
+### tab\_opt
+
+{% hint style="info" %}
+ui\_group\_style="4"的時候才需要被定義
+{% endhint %}
+
+| Attributes | Required | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+| id |  |  |  |
+| label |  |  | tab上顯示的名稱 |
+
