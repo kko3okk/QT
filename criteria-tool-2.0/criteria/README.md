@@ -21,10 +21,6 @@
 | result\_args |  |  | 可不定義 \(系統按照\) |
 | pre\_criteria |  |  | pre\_criteria="data\_type" |
 | next\_criteria |  |  | next\_criteria="tab\_condition" , next\_criteria="\#radio\_result\#" |
-| ui\_group\_type |  |  |  |
-|  |  | expand\_or\_collapse | Group呈現縮合功能 |
-| ui\_group\_style |  |  | 對照CSS要呈現什麼樣子 |
-| ui\_group\_default\_expand |  | true/false | 縮合的預設值 |
 | group |  |  | 舉例 :  兩個criteria都設定group="1" , 就會被放在同一行 ; 值只要相同就可 , 但要連續的才會被判斷成同一行 |
 
 

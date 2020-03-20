@@ -8,10 +8,10 @@
 
 | Attributes | Required | Parameters | Description | Support css |
 | :--- | :--- | :--- | :--- | :--- |
-| ui\_group\_style | V | **mainContent**/**mainTabs**/3/**tab-group/accordion** | 決定使用何種樣式 |  |
-| ui\_color |  |  | 定義group背景顏色 | **mainContent** |
-| ui\_group\_type |  | expand\_or\_collapse | 決定group是否能夠縮合 | **mainContent**/**accordion** |
-| ui\_group\_default\_expand |  |  | ui\_group\_type="expand\_or\_collapse" , 設定縮合的初始狀態, 預設值true | **mainContent**/**accordion** |
+| ui\_group\_style | V | mainContent/mainTabs/tag/tab\_group/accordion | 決定使用何種樣式 |  |
+| ui\_color |  |  | 定義group背景顏色 | mainContent |
+| ui\_group\_type |  | expand\_or\_collapse | 決定group是否能夠縮合 | mainContent/accordion |
+| ui\_group\_default\_expand |  |  | ui\_group\_type="expand\_or\_collapse" , 設定縮合的初始狀態, 預設值true | mainContent/accordion |
 
 ![](../../.gitbook/assets/image-9.png)
 

@@ -18,6 +18,7 @@
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
 | button\_label |  | ex : Add+ | 定義Button顯示的名稱 ; 預設值=Add+ |
+| dialog\_label |  |  | 定義燈箱Title的名稱 |
 
 ### selecter\_opt
 
