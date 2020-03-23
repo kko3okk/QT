@@ -22,6 +22,7 @@
 | pre\_criteria |  |  | pre\_criteria="data\_type" |
 | next\_criteria |  |  | next\_criteria="tab\_condition" , next\_criteria="\#radio\_result\#" |
 | group |  |  | 舉例 :  兩個criteria都設定group="1" , 就會被放在同一行 ; 值只要相同就可 , 但要連續的才會被判斷成同一行 |
+| pre\_criteria\_value\_is |  |  |  |
 
 
 
