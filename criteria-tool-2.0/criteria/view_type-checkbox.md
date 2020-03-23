@@ -39,7 +39,7 @@
 | :--- | :--- | :--- | :--- |
 | check\_type | V | single / multi | single 只顯示第一個check\_item |
 | max\_count |  |  | 最多被選擇的數量 |
-| is\_support\_base\_by |  | true/ false | UI是否顯示base by |
+| is\_support\_base\_by |  | true/ false | UI是否顯示base by; 預設值=false |
 | support\_base\_by\_selected |  | true/ false | 預設值 = true |
 
 ![is\_support\_base\_by](../../.gitbook/assets/image-6.png)
