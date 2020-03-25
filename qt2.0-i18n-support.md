@@ -3,6 +3,7 @@
 1. 給User定義i18n property
 2. 放置路徑  \(tomcat\_home/Server\_File\)
 3. 語系來源 : 後端從EDA取得目前語系 \(共用EDA的方法\) , 讓前端得知語系
+   1. 目前從tyne\_all\_user設定個別User的語系
 4. Naming Rule :  太引提供建議範本 , 但不強制規定要如何命名
 5. 前端如何取得Propery ?  直接到Server上面拿
 
