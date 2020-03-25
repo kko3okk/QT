@@ -16,5 +16,5 @@ description: '以下是選取到時要記住equip_id , 而顯示在UI 時要顯�
 distinct equip_id , equip_id||'(' ||equip_group ||')'
 ```
 
-![UI &#x5448;&#x73FE;&#x756B;&#x9762;](../.gitbook/assets/image-1.png)
+![UI &#x5448;&#x73FE;&#x756B;&#x9762;](../.gitbook/assets/image-1%20%281%29.png)
 
