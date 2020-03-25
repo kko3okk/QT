@@ -20,5 +20,9 @@
 * 請參考 : [啟動i18n](criteria-tool-2.0/query-page.md)
 {% endhint %}
 
+{% hint style="info" %}
+* edatool-rest/edatool/QT/getLocale;jsessionid=A149FE9274B6223AA37AA3F3A5FA59DF
+{% endhint %}
+
 ![&#x547C;&#x53EB;&#x5F8C;&#x7D50;&#x679C;&#x7BC4;&#x4F8B;](.gitbook/assets/image-1.png)
 
