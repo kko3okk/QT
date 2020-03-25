@@ -21,6 +21,8 @@
 {% endhint %}
 
 {% hint style="info" %}
+### API function
+
 * edatool-rest/edatool/QT/getLocale;jsessionid=A149FE9274B6223AA37AA3F3A5FA59DF
 {% endhint %}
 
