@@ -18,7 +18,7 @@
 |  |  | [keyin](view_type-key_in/) |  |
 | is\_required |  |  | 預設值 = false |
 | label |  |  | 沒輸入代表元件前不顯示Label |
-| result\_args |  |  | 可不定義 \(系統按照\) |
+| result\_args |  |  | 可不定義 \(系統自動產生\) |
 | pre\_criteria |  |  | pre\_criteria="data\_type" |
 | next\_criteria |  |  | next\_criteria="tab\_condition" , next\_criteria="\#radio\_result\#" |
 | group |  |  | 舉例 :  兩個criteria都設定group="1" , 就會被放在同一行 ; 值只要相同就可 , 但要連續的才會被判斷成同一行 |
