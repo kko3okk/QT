@@ -24,5 +24,5 @@
 * edatool-rest/edatool/QT/getLocale;jsessionid=A149FE9274B6223AA37AA3F3A5FA59DF
 {% endhint %}
 
-![&#x547C;&#x53EB;&#x5F8C;&#x7D50;&#x679C;&#x7BC4;&#x4F8B;](.gitbook/assets/image-1.png)
+![](.gitbook/assets/image-2.png)
 

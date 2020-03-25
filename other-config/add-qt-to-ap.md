@@ -36,7 +36,7 @@ insert into edatool_query_tool_plugin_t (QUERY_TOOL_ID, DISPLAY_NAME, CRITERIA_X
 values ('ET_QT1', 'QT1', '', to_date('10-10-2017', 'dd-mm-yyyy'), 3, '1', 'ET_QUERY_TOOL');
 ```
 
-![&#x958B;&#x555F;Query Tool&#x6309;&#x9215;](../.gitbook/assets/image-2.png)
+![&#x958B;&#x555F;Query Tool&#x6309;&#x9215;](../.gitbook/assets/image-2%20%281%29.png)
 
 ![&#x9032;&#x5165;QT&#x5F8C;, &#x63D0;&#x4F9B;&#x9078;&#x53D6;&#x756B;&#x9762;](../.gitbook/assets/image-3.png)
 
