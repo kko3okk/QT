@@ -18,7 +18,8 @@
 | disable\_save\_button |  | true / false | 顯示 / 隱藏 save button |
 | forward\_url |  |  | 導向目標網址 |
 | route\_url |  |  | 與forward\_url配對 |
-| enable\_help\_icon |  | true / false | 預設值為false\(not ready\) |
-| help\_file\_location |  |  | help file放置的路徑\(not ready\) |
+| enable\_help\_icon |  | true / false | 預設值為false \(not ready\) |
+| help\_file\_location |  |  | help file放置的路徑 \(not ready\) |
 | mode\_type |  | new\_ds/old\_ds | 提供程式判斷使用什麼樣式 |
+| enable\_i18n |  | true / false | 預設值=false |
 

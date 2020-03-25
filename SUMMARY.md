@@ -52,6 +52,7 @@
       * [example2 : use is\_support\_im](criteria-tool-2.0/criteria/view_type-key_in/example2-use-is_support_im.md)
       * [example3 : is\_support\_source\_data\_set](criteria-tool-2.0/criteria/view_type-key_in/example3-is_support_source_data_set.md)
   * [next\_action](criteria-tool-2.0/next_action.md)
+* [QT2.0 : i18n support](qt2.0-i18n-support.md)
 * [db\_connection\_config](db_connection_config.md)
 * [global\_args\_define](untitled.md)
 * [avail\_data\_method\_list](avail_data_method_list/README.md)
