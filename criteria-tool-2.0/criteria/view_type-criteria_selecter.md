@@ -11,7 +11,7 @@
 </criteria>
 ```
 
-![view\_type=&quot;criteria\_selecter&quot;](../../.gitbook/assets/image-8%20%281%29.png)
+![view\_type=&quot;criteria\_selector&quot;](../../.gitbook/assets/image-8%20%281%29.png)
 
 ### Criteria
 
