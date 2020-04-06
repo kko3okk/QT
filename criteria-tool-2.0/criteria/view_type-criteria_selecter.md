@@ -1,7 +1,7 @@
-# view\_type="criteria\_selecter"
+# view\_type="criteria\_selector"
 
 ```markup
- <criteria id="criteria_selecter"  view_type="criteria_selecter" is_required="false" label="過濾條件" button_label="Add+" group="1">
+ <criteria id="criteria_selecter"  view_type="criteria_selector" is_required="false" label="過濾條件" button_label="Add+" group="1">
 		<selecter_opt value="equip_ID" display_name="EQP ID"/>
        <select_opt avail_from="avail_data_method" avail_data_method="get_avail_class8_list"  />
     </selecter_opt>
@@ -20,7 +20,7 @@
 | button\_label |  | ex : Add+ | 定義Button顯示的名稱 ; 預設值=Add+ |
 | dialog\_label |  |  | 定義燈箱Title的名稱 |
 
-### selecter\_opt
+### selector\_opt
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
