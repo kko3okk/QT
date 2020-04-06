@@ -20,7 +20,7 @@
 | route\_url |  |  | 與forward\_url配對 |
 | enable\_help\_icon |  | true / false | 預設值為false \(not ready\) |
 | help\_file\_location |  |  | help file放置的路徑 \(not ready\) |
-| mode\_type |  | new\_ds/old\_ds | 提供程式判斷使用什麼樣式 |
+| mode\_type |  | new\_ds/old\_ds | 提供程式判斷使用什麼樣式 , 預設值=old\_ds |
 | enable\_i18n |  | true / false | 預設值=false |
 | query\_by\_pluginclass |  | true / false | 預設值=false |
 | query\_tool\_version |  | QT1/QT2 | 預設值 = QT1 |
