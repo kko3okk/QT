@@ -1,13 +1,13 @@
 # view\_type="criteria\_selector"
 
 ```markup
- <criteria id="criteria_selecter"  view_type="criteria_selector" is_required="false" label="過濾條件" button_label="Add+" group="1">
-		<selecter_opt value="equip_ID" display_name="EQP ID"/>
+ <criteria id="criteria_selector"  view_type="criteria_selector" is_required="false" label="過濾條件" button_label="Add+" group="1">
+		<selector_opt value="equip_ID" display_name="EQP ID"/>
        <select_opt avail_from="avail_data_method" avail_data_method="get_avail_class8_list"  />
-    </selecter_opt>
-    <selecter_opt value="lot_type" display_name="LOT_TYPE ID"/>
+    </selector_opt>
+    <selector_opt value="lot_type" display_name="LOT_TYPE ID"/>
        <select_opt avail_from="avail_data_method" avail_data_method="get_avail_class8_list"  />
-    </selecter_opt>
+    </selector_opt>
 </criteria>
 ```
 
