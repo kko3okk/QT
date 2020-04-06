@@ -23,4 +23,5 @@
 | mode\_type |  | new\_ds/old\_ds | 提供程式判斷使用什麼樣式 |
 | enable\_i18n |  | true / false | 預設值=false |
 | query\_by\_pluginclass |  | true / false | 預設值=false |
+| query\_tool\_version |  | QT1/QT2 | 預設值 = QT1 |
 
