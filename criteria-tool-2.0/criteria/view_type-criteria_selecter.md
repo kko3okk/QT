@@ -27,6 +27,7 @@
 | value |  |  |  |
 | display\_name |  |  | UI顯示名稱 |
 | fk\_selected |  | keep/filter | 預設值為keep, 代表選擇\(K\) |
+| item\_selected |  | true/false | 預設值=true |
 
 ### select\_opt
 
