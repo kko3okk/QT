@@ -26,7 +26,8 @@
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-|  |  |  |  |
+| default\_selected\_first |  | true/false | 預設值=true |
+| enable\_cancel\_selected |  | true/false | 預設值=false |
 
 #### radio\_item
 
