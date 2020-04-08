@@ -19,6 +19,8 @@
 | :--- | :--- | :--- | :--- |
 | ui\_group\_style |  | radio/button | 預設值 = radio ; 樣式show為Button |
 | next\_criteria |  | \#radio\_result\# | 根據Raid的Valeu, 動態替換值 |
+| default\_selected\_first |  | true/false | 預設值=true |
+| enable\_cancel\_selected |  | true/false | 預設值=false |
 
 ![ui\_group\_style=&quot;button&quot;](../../.gitbook/assets/image-7.png)
 
@@ -26,8 +28,7 @@
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-| default\_selected\_first |  | true/false | 預設值=true |
-| enable\_cancel\_selected |  | true/false | 預設值=false |
+
 
 #### radio\_item
 
