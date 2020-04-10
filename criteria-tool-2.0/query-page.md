@@ -24,5 +24,5 @@
 | enable\_i18n |  | true / false | 預設值=false |
 | query\_by\_pluginclass |  | true / false | 預設值=false |
 | query\_tool\_version |  | QT1/QT2 | 預設值 = QT1 |
-| is\_support\_analysis\_preference |  | true/ false | 預設值 = true , TYNE\_CONFIG有設定全域時 , 此變數不生效 |
+| is\_support\_analysis\_preference |  | true/ false | 有設定時 , 就後蓋前 |
 
