@@ -41,6 +41,10 @@
 | max\_count |  |  | 最多被選擇的數量 |
 | is\_support\_base\_by |  | true/ false | UI是否顯示base by; 預設值=false |
 | support\_base\_by\_selected |  | true/ false | 預設值 = true |
+| control\_function |  |  | ex : is\_support\_base\_by |
+| control\_function\_arg |  |  | ex : condition\_type |
+| control\_function\_arg\_value\_specify |  |  | 預設值=result , 可指定其他值 |
+| control\_function\_arg\_value\_is |  |  | keyin\_selected\_shop |
 
 ![is\_support\_base\_by](../../.gitbook/assets/image-6.png)
 
