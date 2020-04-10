@@ -22,5 +22,5 @@
 | route\_url |  |  | 與forward\_url配對 |
 | enable\_help\_icon |  | true / false | 預設值為false |
 | help\_file\_location |  |  | help file放置的路徑 |
-| is\_support\_analysis\_preferen |  | true / false | 預設值 = true , TYNE\_CONFIG有設定全域時 , 此變數不生效 |
+| is\_support\_analysis\_preference |  | true / false | 預設值 = true , TYNE\_CONFIG有設定全域時 , 此變數不生效 |
 
