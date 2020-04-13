@@ -22,5 +22,5 @@
 | route\_url |  |  | 與forward\_url配對 |
 | enable\_help\_icon |  | true / false | 預設值為false |
 | help\_file\_location |  |  | help file放置的路徑 |
-| is\_support\_analysis\_preference |  | true / false | 有設定時 , 就後蓋前 |
+| is\_support\_analysis\_preference |  | true / false | 先判斷TYNE\_CONFIG\_T有沒有定義is\_support\_analysis\_preference ; 有的話XML的設定值無效 , 預設值=true |
 

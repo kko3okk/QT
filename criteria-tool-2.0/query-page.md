@@ -24,5 +24,6 @@
 | enable\_i18n |  | true / false | 預設值=false |
 | query\_by\_pluginclass |  | true / false | 預設值=false |
 | query\_tool\_version |  | QT1/QT2 | 預設值 = QT1 |
-| is\_support\_analysis\_preference |  | true/ false | 有設定時 , 就後蓋前 |
+| is\_support\_analysis\_preference |  | true/ false | 先判斷TYNE\_CONFIG\_T有沒有定義is\_support\_analysis\_preference ; 有的話XML的設定值無效 , 預設值=true |
+|  |  |  |  |
 
