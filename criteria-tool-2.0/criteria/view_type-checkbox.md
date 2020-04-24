@@ -45,6 +45,7 @@
 | control\_function\_arg |  |  | ex : condition\_type |
 | control\_function\_arg\_value\_specify |  |  | 預設值=result , 可指定其他值 |
 | control\_function\_arg\_value\_is |  |  | keyin\_selected\_shop |
+| is\_support\_base\_by\_display\_logic |  | true/false | 預設值=false , 功能為當只選一個checkbox時 , base\_by元件不出現 , 並且將值設定好 |
 
 ![is\_support\_base\_by](../../.gitbook/assets/image-6.png)
 
