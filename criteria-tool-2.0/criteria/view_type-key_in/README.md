@@ -25,6 +25,7 @@
 | is\_support\_file\_upload |  | true / false |  |
 | is\_support\_im |  | true / false |  |
 | is\_support\_source\_data\_set |  | true / false |  |
+| max\_count |  |  | UI最大輸入的數量 , 超過顯示錯誤訊息 : ERR\_MSG&gt; remains is over \[設定值\] . Please reduce the list. |
 
 ### file\_upload\_opt
 
