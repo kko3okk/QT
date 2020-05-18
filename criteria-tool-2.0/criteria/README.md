@@ -10,7 +10,7 @@
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-| id | V |  |  |
+| id | V |  | 重要 !!  第一群擷取日期的radio group, 沒有使用plugin\_class時 , id請固定叫 : c\_date\_opt ; Prod code認字眼做事情 |
 | view\_type | V | ui\_group | UI上呈現的分群 |
 |  |  | [checkbox](view_type-checkbox.md) |  |
 |  |  | [radio](view_type-radio.md) |  |
