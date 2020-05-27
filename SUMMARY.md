@@ -70,6 +70,7 @@
   * [S1-636](xu-qiu-qing-chan/s1-636.md)
   * [S1-634](xu-qiu-qing-chan/s1-634.md)
 * [QT測試項目](qt-ce-shi-xiang-mu.md)
+* [QT 相關程式碼 - SVN規範](qt-xiang-guan-cheng-shi-ma-svn-gui-fan.md)
 
 ## QT2.0
 
