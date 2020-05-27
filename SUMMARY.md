@@ -69,6 +69,7 @@
   * [S1-563](xu-qiu-qing-chan/s1-563.md)
   * [S1-636](xu-qiu-qing-chan/s1-636.md)
   * [S1-634](xu-qiu-qing-chan/s1-634.md)
+* [QT測試項目](qt-ce-shi-xiang-mu.md)
 
 ## QT2.0
 
