@@ -75,5 +75,6 @@
 ## QT2.0
 
 * [優化](qt2.0/you-hua.md)
+* [開發進度規劃](qt2.0/kai-fa-jin-du-gui-hua.md)
 * [DS T7畫面測試scope](qt2.0/ds-t7-hua-mian-ce-shi-scope.md)
 
