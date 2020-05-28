@@ -38,7 +38,6 @@
 | TBD | Load XML to memory vs Load File |  |
 | TBD | 目前使用QT全部XML都會被讀取一次 , 希望改成用哪一隻讀哪一隻XML |  |
 | TBD | 日期格式的處理 |  |
-| TBD | QT - Ant流程修改安排  | 將QT的code , 包版後能夠自動包進去 |
 
 ## QT2.3
 
@@ -47,6 +46,7 @@
 | Finish Date | Item | Desc |
 | :--- | :--- | :--- |
 | TBD | 從Serverlet 改成 Restful |  |
+| TBD | QT - Ant流程修改安排  | 將QT的code , 包版後能夠自動包進去 |
 
 ## 其餘需求
 
