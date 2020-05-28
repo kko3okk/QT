@@ -46,6 +46,8 @@
 | control\_function\_arg\_value\_specify |  |  | 預設值=result , 可指定其他值 |
 | control\_function\_arg\_value\_is |  |  | keyin\_selected\_shop |
 | is\_support\_base\_by\_display\_logic |  | true/false | 預設值=false , 功能為當只選一個checkbox時 , base\_by元件不出現 , 並且將值設定好 |
+| t7\_next |  |  | 針對t7特殊需求 , 針對base\_by的選擇 , 決定要影響某一個元件要出線的內容 |
+| t7\_is\_base\_by\_false |  |  | 針對t7特殊需求, 當base\_by的值=false , 被影響的元件要出現哪些選項 ; 假如值=true , 則不影響 |
 
 ![is\_support\_base\_by](../../.gitbook/assets/image-6.png)
 
