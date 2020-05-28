@@ -14,11 +14,10 @@
       <td style="text-align:left">QT XML</td>
       <td style="text-align:left">
         <ol>
-          <li>&#x8ACB;&#x540C;&#x6B65;&#x5230;&#x5BA2;&#x6236;&#x5225;&#x7684;webapps&#x76EE;&#x9304;&#x4E0B;
-            (ex : LEDA_CSOTT7/webapps/QT)</li>
-          <li>&#x56E0;&#x70BA;&#x6BCF;&#x4E00;&#x5BB6;&#x5BA2;&#x6236;&#x653E;&#x7F6E;QT&#x7684;&#x8DEF;&#x5F91;&#x4E0D;&#x76F8;&#x540C;
-            , &#x6240;&#x4EE5;&#x9700;&#x901A;&#x77E5;SI&#x4E0A;&#x677F;&#x6642; ,
-            &#x9700;&#x8981;&#x6CE8;&#x610F;&#x5C07;&#x6700;&#x65B0;&#x7684;QT &#x653E;&#x5230;&#x6307;&#x5B9A;&#x8DEF;&#x5F91;&#x4E0B;</li>
+          <li>&#x8ACB;&#x540C;&#x6B65;&#x5230;&#x5BA2;&#x6236;&#x5225;&#x7684;&#x76EE;&#x9304;&#x4E0B;
+            (ex : LEDA_CSOTT7/QT/XML)</li>
+          <li>&#x76EE;&#x524D;&#x4E00;&#x5F8B;&#x898F;&#x5B9A;XML&#x653E;&#x7F6E;&#x8DEF;&#x5F91;&#x70BA;
+            ex : AYDA_CSOTT7_TEST/Server_File/QT</li>
         </ol>
       </td>
     </tr>
@@ -27,10 +26,8 @@
       <td style="text-align:left">
         <p></p>
         <ol>
-          <li>&#x8ACB;&#x540C;&#x6B65;&#x5230;&#x5BA2;&#x6236;&#x5225;&#x7684;webapps&#x76EE;&#x9304;&#x4E0B;
-            (ex : LEDA_CSOTT7/LEDA_CSOTT7/java/csott7)</li>
-          <li>&#x65B0;&#x7684;&#x5BA2;&#x6236;&#x5225;&#x76EE;&#x9304;&#x50F9;&#x547D;&#x540D;&#x898F;&#x5247;&#x8ACB;&#x8A62;&#x554F;AP
-            Team</li>
+          <li>&#x8ACB;&#x540C;&#x6B65;&#x5230;&#x5BA2;&#x6236;&#x5225;&#x7684;&#x76EE;&#x9304;&#x4E0B;
+            (ex : LEDA_CSOTT7/QT/plugin_class)</li>
         </ol>
       </td>
     </tr>
@@ -43,4 +40,17 @@
       </td>
     </tr>
   </tbody>
-</table>
+</table>Ant 流程 :
+
+1. 只要檢查到客戶別下有QT目錄夾 , 就會另外tyne\release 下多一包QT的目錄夾
+2. 其中內容要包含 : QT/XML ,  QT/plugin\_class
+3. 其中要注意的是 QT/plugin\_class : 內容要包含java source &  java class
+   1. QT/plugin\_class/source\_code : java source
+   2. QT/plugin\_class/compiler\_code : java class
+
+上板流程 :
+
+1. AP按照SOP做完所有動作後 , 從QT/XML 拿到最新的 XML , 更新到 Server\_File/QT
+2. 將 QT/plugin\_class/compiler\_code 放到 WEB-INF/classes
+3. QT/plugin\_class/source\_code 根據開發需求 , 判斷是否要同步到客戶家開發環境
+
