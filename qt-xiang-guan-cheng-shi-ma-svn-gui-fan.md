@@ -40,7 +40,9 @@
       </td>
     </tr>
   </tbody>
-</table>Ant 流程 :
+</table>
+
+Ant 流程 :
 
 1. 只要檢查到客戶別下有QT目錄夾 , 就會另外tyne\release 下多一包QT的目錄夾
 2. 其中內容要包含 : QT/XML ,  QT/plugin\_class

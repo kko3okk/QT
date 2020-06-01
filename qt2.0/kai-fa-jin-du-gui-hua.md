@@ -26,10 +26,36 @@
     <tr>
       <td style="text-align:left">6/12</td>
       <td style="text-align:left">QT &#x7E7C;&#x627F;&#x6A5F;&#x5236;</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ol>
+          <li>&#x53EF;&#x4EE5;by criteria id &#x6574;&#x7D44;&#x62FF;base &#x7684; ,
+            &#x7528; replace_by_base=&quot;true&quot;</li>
+          <li>avail_data_method_list &#x5167; , &#x53EF;&#x4EE5;&#x5403;arg map &#x7684;&#x8B8A;&#x6578;avail_data_method_list
+            =&gt; &#x653E;base (&#x7236;) ; arg map &#x653E;&#x4E0A;&#x5C64;(&#x5152;&#x5B50;)</li>
+          <li>db_connection_config &#x5B9A;replace_by_base</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">pre_criteria &#x908F;&#x8F2F;&#x65B0;&#x589E;</td>
+      <td style="text-align:left">
+        <p>pre_criteria_logic= &quot;and&quot;</p>
+        <p>pre_criteria=&quot;normal.product_id,condition_type=seleted_by_preprocess&quot;</p>
+        <p>* pre_criteria &#x5148;&#x7528;&quot;,&quot; &#x5206;&#x9694; , &#x62C6;&#x51FA;&#x591A;&#x500B;&#x5F8C;
+          ,</p>
+        <p>&#x6BCF;&#x4E00;&#x500B;&#x82E5; &#x7121;&#x7B49;&#x865F; ==&gt; &#x73FE;&#x6CC1;
+          (&#x53EA;&#x770B;&#x8A72;criteria id &#x6709;&#x8A2D;&#x5B9A; &#x5C31;pass</p>
+        <p>&#x6BCF;&#x4E00;&#x500B;&#x82E5; &#x6709;&#x7B49;&#x865F; ==&gt; criteria
+          id &#x6709;&#x8A2D;&#x5B9A; &#x4E14;&#x7B26;&#x5408; = &#x5F8C;&#x9762;&#x7684;value
+          &#x624D;pass</p>
+      </td>
     </tr>
   </tbody>
-</table>## QT2.2
+</table>
+
+## QT2.2
 
 針對可優化功能 , 做改善
 
