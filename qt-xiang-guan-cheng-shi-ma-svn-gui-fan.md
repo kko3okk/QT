@@ -35,7 +35,10 @@
       <td style="text-align:left">QT config &#x76F8;&#x95DC;SQL</td>
       <td style="text-align:left">
         <ol>
-          <li>&#x540C;&#x6B65;&#x5230;LEDA_CSOTT7/db/data &#x5404;&#x500B;load file&#x4E2D;</li>
+          <li>
+            <p>&#x8ACB;&#x540C;&#x6B65;&#x5230;&#x5BA2;&#x6236;&#x5225;&#x7684;&#x76EE;&#x9304;&#x4E0B;</p>
+            <p>(ex : LEDA_CSOTT7/db/data/load-22-qt-config.sql)</p>
+          </li>
         </ol>
       </td>
     </tr>
