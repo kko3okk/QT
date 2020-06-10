@@ -14,7 +14,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">6/8</td>
+      <td style="text-align:left">6/8(done)</td>
       <td style="text-align:left">QT &#x76F8;&#x95DC;&#x898F;&#x7BC4;&#x516C;&#x5E03;</td>
       <td style="text-align:left">
         <ol>
@@ -24,7 +24,10 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">6/12</td>
+      <td style="text-align:left">
+        <p>6/12(6/10-</p>
+        <p>done)</p>
+      </td>
       <td style="text-align:left">QT &#x7E7C;&#x627F;&#x6A5F;&#x5236;</td>
       <td style="text-align:left">
         <p></p>
