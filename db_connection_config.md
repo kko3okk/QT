@@ -13,5 +13,5 @@
 | :--- | :--- | :--- | :--- |
 | id |  |  |  |
 | type |  | from\_tyne\_plugin\_db\_t /  | DB table :  tyne\_plugin\_db\_t |
-| plugin\_db\_id |  | number / from\_ap | from\_ap : 使用EDA的Longon connection做事情 |
+| plugin\_db\_id |  | number / from\_ap | from\_ap : 使用EDA的Logon connection做事情 |
 
