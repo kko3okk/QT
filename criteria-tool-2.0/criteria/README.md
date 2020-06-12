@@ -89,11 +89,8 @@
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p>pre_criteria=&quot;data_type&quot; -&gt; data_type &#x70BA;&#x4EFB;&#x610F;&#x503C;
-          , &#x90FD;&#x53EF;&#x901A;&#x904E;</p>
-        <p>pre_criteria=&quot;data_type=data_type_hst,data_type_defect,data_type_param&quot;</p>
-        <p>-&gt; data_type &#x6C92;&#x6709;.XXXX &#x6642; , &#x7CFB;&#x7D71;&#x81EA;&#x52D5;&#x53D6;&#x503C;</p>
-        <p>-&gt; data_type.xxxx &#x6642; , &#x76F4;&#x63A5;&#x5230;arg_map&#x53D6;&#x503C;</p>
+        <p>&#x8ACB;&#x53C3;&#x8003;&#x4E0B;&#x534A;&#x90E8; pre_criteria &#x8655;&#x7406;&#x908F;&#x8F2F;</p>
+        <p></p>
       </td>
     </tr>
     <tr>
