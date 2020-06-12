@@ -41,7 +41,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">6/17</td>
       <td style="text-align:left">pre_criteria &#x908F;&#x8F2F;&#x65B0;&#x589E;</td>
       <td style="text-align:left">
         <p>pre_criteria_logic= &quot;and&quot;</p>
