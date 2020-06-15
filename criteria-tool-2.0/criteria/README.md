@@ -139,7 +139,7 @@
 {% hint style="info" %}
 pre\_criteria  處理邏輯
 
-pre\_criteria="data\_type"   -&gt; data\_type 只要是任意值 , 即可通過
+_pre\_criteria_="data\_type"   -&gt; data\_type 只要是任意值 , 即可通過
 
 pre\_criteria="ABC,DEF=123\|456"    -&gt;  DEF的值只要符合123 or 456 , 即可通過
 
