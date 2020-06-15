@@ -90,7 +90,8 @@
       <td style="text-align:left"></td>
       <td style="text-align:left">
         <p>&#x8ACB;&#x53C3;&#x8003;&#x4E0B;&#x534A;&#x90E8; pre_criteria &#x8655;&#x7406;&#x908F;&#x8F2F;</p>
-        <p></p>
+        <p>pre_criteria=&quot;ABC&quot; -&gt; ABC.result</p>
+        <p>pre_criteria=&quot;ABC.abc&quot; -&gt; ABC.abc</p>
       </td>
     </tr>
     <tr>
