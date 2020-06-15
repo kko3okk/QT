@@ -144,7 +144,7 @@ pre\_criteria="ABC,DEF=123\|456"    -&gt;  DEF的值只要符合123 or 456 , 即
 
 
 
-pre\_criteria="ABC,DEF.test123=123\|456"    -&gt;  DEF.test的值只要符合123 or 456 , 即可通過
+pre\_criteria="ABC,DEF.test123=123\|456"    -&gt;  DEF.test123的值只要符合123 or 456 , 即可通過
 
 pre\_criteria="ABC,DEF=123&456"   -&gt; DEF的值要同時符合123 and 456 , 才能通過
 {% endhint %}
