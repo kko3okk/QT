@@ -29,6 +29,6 @@
 | from\_id | V |  | from\_id 填入的值，須為某一個criteria 的ID。 |
 | data\_type | V | string/ string\_array/ date |  |
 | format |  |  | 當 data\_type=”date” 時，需定義format |
-| data\_value |  |  | 用來定義變數預設值, 一般不需要定此屬性, 會定義此data\_value 通常是拿來當作常數用 |
-| defult\_value |  |  | 宣告變數的值 |
+| data\_value |  |  | 用來定義變數預設值, 一般不需要定此屬性, 會定義此data\_value 通常是拿來當作常數用 , 用於UI互動時替換\#VALUE\#的值 |
+| defult\_value |  |  | 宣告變數的值 , 用於初始化時替換\#VALUE\#的值 |
 
