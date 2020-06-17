@@ -137,7 +137,7 @@
 </table>
 
 {% hint style="info" %}
-pre\_criteria  處理邏輯
+請參考下半部 pre\_criteria 處理邏輯
 
 _pre\_criteria_="data\_type"   -&gt; data\_type 只要是任意值 , 即可通過
 
