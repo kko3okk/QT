@@ -13,7 +13,7 @@
 | view\_type |  | single / multiple |  |
 | avail\_from |  | constants / avail\_data\_method |  |
 | avail\_data\_method |  |  | 填入 取得 avail data 的 method ID, method id 會對應到&lt;avail\_data\_method\_list&gt; 的&lt;avail\_data\_method&gt; 的 ID |
-| data\_method\_arg |  |  | ex : data\_method\_arg="tab\_shop=array" 替換method裡面SQL , 用\#\#包住的變數 \(當argmap不存在時 , 才會使用這一個參數\) |
+| data\_method\_arg |  |  | ex : data\_method\_arg="tab\_shop=array" 替換method裡面SQL , 用\#\#包住的變數 \(順序 : data\_method\_arg -&gt; 一般argmap\) |
 | is\_support\_im |  |  |  |
 | is\_support\_all\_flag |  | true/false | 是否顯示ALL Button |
 | all\_flag\_var |  | ex : param\_name\_list\_all | 存放all flag是否開啟的參數 |
