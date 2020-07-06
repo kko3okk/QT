@@ -41,7 +41,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">6/17</td>
+      <td style="text-align:left">6/17(Done)</td>
       <td style="text-align:left">pre_criteria &#x908F;&#x8F2F;&#x65B0;&#x589E;</td>
       <td style="text-align:left">
         <p>pre_criteria_logic= &quot;and&quot;</p>
@@ -64,9 +64,9 @@
 
 | Finish Date | Item | Desc |
 | :--- | :--- | :--- |
-| 6/19 | Load XML to memory vs Load File |  |
-| 6/19 | 目前使用QT全部XML都會被讀取一次 , 希望改成用哪一隻讀哪一隻XML |  |
-| 6/19 | 目前取值時 ,  QueryData有問題 or QueryData為空時 , 都回傳1234 ; 不易判斷是有問題 or 空值  -&gt; 修改成有問題1234 ;  空值回傳空陣列 |  |
+| 7/9 | Load XML to memory vs Load File |  |
+| 6/19\(Done\) | 目前使用QT全部XML都會被讀取一次 , 希望改成用哪一隻讀哪一隻XML |  |
+| 6/19\(Done\) | 目前取值時 ,  QueryData有問題 or QueryData為空時 , 都回傳1234 ; 不易判斷是有問題 or 空值  -&gt; 修改成有問題1234 ;  空值回傳空陣列 |  |
 | TBD | 日期格式的處理 |  |
 
 ## QT2.3
