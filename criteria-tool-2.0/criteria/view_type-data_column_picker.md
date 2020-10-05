@@ -33,3 +33,7 @@
 | :--- | :--- | :--- | :--- |
 | column\_from\_self |  | true /false  | 預設值=false |
 
+### column\_mapping
+
+* 欄位輸出方式請參考 :  [輸出欄位定義方式](../../shu-chu-lan-wei-ding-yi-fang-shi.md)
+
