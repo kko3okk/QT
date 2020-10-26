@@ -12,7 +12,8 @@
 
 | Attributes | Required | Parameters | Description |
 | :--- | :--- | :--- | :--- |
-| date\_type | V | past\_days / date\_range / past\_hours / date\_range\_DTN/date\_range\_WTD/ date\_range\_MTD | 判斷 user 所選的 date\_type為何 |
+| date\_type | V | past\_days / date\_range / past\_hours / date\_range\_DTN/date\_range\_WTD/ date\_range\_MTD/week/month | 判斷 user 所選的 date\_type為何 |
+| show\_hhmm |  | true/false | 預設false, 當date\_type='week' or 'month', 控制是否要讓user設定時分 |
 | default\_value |  |  |  |
 | start\_time |  |  |  |
 | end\_time |  |  |  |
