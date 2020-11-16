@@ -33,6 +33,23 @@
 | :--- | :--- | :--- | :--- |
 | column\_from\_self |  | true /false  | 預設值=false |
 
+### select\_opt
+
+| Attributes | Required | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+| mode |  | plugin\_class | 讓前端呼叫Action\_code = get\_pre\_sel\_data\_column\_list , 設定預設值 \(pre\_select\) |
+
+```markup
+使用plugin_class管理預設值
+<criteria id="defect.cf.data_column"  view_type="data_column_picker" is_required="false" label="選擇欄位" column_from_self="true">
+    <select_opt  mode="plugin_class"></select_opt>
+</criteria>
+原生功能預選
+<criteria id="defect.cf.data_column"  view_type="data_column_picker" is_required="false" label="選擇欄位" column_from_self="true">
+    <select_opt pre_select="STEP_ID,SHEET_ID"></select_opt>
+</criteria>
+```
+
 ### column\_mapping
 
 * 欄位輸出方式請參考 :  [輸出欄位定義方式](../../shu-chu-lan-wei-ding-yi-fang-shi.md)
