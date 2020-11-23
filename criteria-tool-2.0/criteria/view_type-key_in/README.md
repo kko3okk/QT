@@ -16,6 +16,12 @@
 </criteria>
 ```
 
+## criteria
+
+| Attributes | Required | Parameters | Description |
+| :--- | :--- | :--- | :--- |
+| replace\_separate |  |  | ex : replace\_separate = "@" 前端會將逗號替換後 , 放入arg\_map , 從preference載入時 , 再將@替換成 |
+
 ### keyin\_opt
 
 | Attributes | Required | Parameters | Description |
