@@ -8,6 +8,13 @@
 </criteria>
 ```
 
+```markup
+<criteria id="past_day" view_type="date" is_required="true" pre_criteria="date_type=past_day" next_criteria="">
+     <date_opt date_type="past_days" past_mode="past_weeks" default_value="1"></date_opt>
+     <past_days_opt start_time="07:30" end_time="00:00"></past_days_opt>
+</criteria>
+```
+
 ### date\_opt
 
 | Attributes | Required | Parameters | Description |
@@ -25,6 +32,7 @@
 | date\_column\_name\_list |  |  | 需要處理的欄位 |
 | date\_src\_mode |  |  | 處理日期模式 |
 | is\_support\_source\_data\_set |  | true / false | 預設false , 只有在ET Mode 能使用 |
+| past\_mode |  | past\_days/past\_weeks/past\_months | 預設past\_days,決定要使用過去by day、week、month方式,且end\_time選取方式會出現radio切換current或specify |
 
 ### past\_days\_opt 
 
