@@ -15,6 +15,8 @@
 </criteria>
 ```
 
+![past\_days&#x5B9A;&#x7FA9;past\_mode&#x65B9;&#x5F0F;](../../.gitbook/assets/1124-1.png)
+
 ### date\_opt
 
 | Attributes | Required | Parameters | Description |
