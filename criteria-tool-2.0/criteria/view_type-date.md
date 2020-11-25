@@ -34,7 +34,7 @@
 | date\_column\_name\_list |  |  | 需要處理的欄位 |
 | date\_src\_mode |  |  | 處理日期模式 |
 | is\_support\_source\_data\_set |  | true / false | 預設false , 只有在ET Mode 能使用 |
-| past\_mode |  | past\_days/past\_weeks/past\_months | 當data\_type="past\_days",且past\_days\_opt有設定end\_time,此設定選項才得以使用。預設past\_days,此設定再於決定要使用過去by day、week、month方式,且end\_time選取方式會出現radio切換current或specify |
+| past\_mode |  | past\_days/past\_weeks/past\_months | 使用方式: 1.data\_type='past\_days' 2.設定past\_mode='past\_days' or 'past\_weeks' or 'past\_months',畫面分別顯示Day\(s\)/Week\(s\)/Month\(s\) from now;當xml criteria有定義past\_days\_opt,且屬性有定end\_time時,會出現radio選項可選current\(指到現在時間\)或specify\(可自訂時分\) |
 
 ### past\_days\_opt 
 
