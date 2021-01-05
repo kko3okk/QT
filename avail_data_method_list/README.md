@@ -38,9 +38,9 @@
 
 所以在2021/01/05在prod code加上判斷:
 
-1.mode = 'oracle' 且value list count &gt; 1000 時, 就是將值塞到**ds\_date\_value\_list\_s**
+1.mode = 'oracle' 且value list count &gt; 1000 時, 就是將值塞到ds\_value\_list\_s
 
-2.ds\_date\_value\_list\_s - key = criteria arg\_name
+2.ds\_value\_list\_s- key = criteria arg\_name
 {% endhint %}
 
 {% hint style="info" %}
