@@ -34,7 +34,7 @@
 | use\_connection\_id |  |  | 輸入的 use\_connection\_id需對應到 &lt;db\_connection\_config&gt; 中定義的 id |
 
 {% hint style="info" %}
-在oracle mode的時候, 經常超過where condition in 數量 &gt; 999 , 會發生錯誤
+在oracle mode的時候, 經常超過where condition in 數量 &gt; 1000 , 會發生錯誤
 
 所以在2021/01/05在prod code加上判斷:
 
