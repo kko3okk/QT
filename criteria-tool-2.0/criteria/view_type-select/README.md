@@ -16,6 +16,7 @@
 | data\_method\_arg |  |  | ex : data\_method\_arg="tab\_shop=array" 替換method裡面SQL , 用\#\#包住的變數 \(順序 : data\_method\_arg -&gt; 一般argmap\) |
 | is\_support\_im |  |  |  |
 | is\_support\_all\_flag |  | true/false | 是否顯示ALL Button |
+| is\_support\_wildcard |  | true/false |  |
 | all\_flag\_var |  | ex : param\_name\_list\_all | 存放all flag是否開啟的參數 |
 | pre\_select |  |  | 預選值 |
 | max\_count |  |  | 選取參數的最大值 |
