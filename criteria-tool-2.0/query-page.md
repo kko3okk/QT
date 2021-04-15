@@ -26,5 +26,6 @@
 | query\_tool\_version |  | QT1/QT2 | 預設值 = QT1 |
 | pre\_criteria\_version |  | QT2/QT2.1 | 預設值 = QT2 , 走原本的pre\_criteria邏輯  ; QT2.1 , 可設定pre\_criteria display logic |
 | is\_support\_analysis\_preference |  | true/ false | 先判斷TYNE\_CONFIG\_T有沒有定義is\_support\_analysis\_preference ; 有的話XML的設定值無效 , 預設值=true |
+| query\_mode |  | normal/simpleqt | 預設值=normal, simpleqt 直接串去summary report ;  normal 串到ET頁面 |
 |  |  |  |  |
 
