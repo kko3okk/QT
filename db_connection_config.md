@@ -15,3 +15,11 @@
 | type |  | from\_tyne\_plugin\_db\_t /  | DB table :  tyne\_plugin\_db\_t |
 | plugin\_db\_id |  | number / from\_ap | from\_ap : 使用AP的Logon connection做事情 |
 
+{% hint style="info" %}
+SPC: get available db 連線請使用sys account  \(禁止使用dbapp account \)
+{% endhint %}
+
+{% hint style="info" %}
+EDA: 
+{% endhint %}
+
