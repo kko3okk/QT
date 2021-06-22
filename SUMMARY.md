@@ -58,6 +58,7 @@
 * [global\_args\_define](untitled.md)
 * [avail\_data\_method\_list](avail_data_method_list/README.md)
   * [example1 : UI 選項available 呈現字串與選取後, 往後送的字串不同](avail_data_method_list/example1-ui-available-cheng-zi-chuan-qu-wang-song-de-zi-chuan-bu-tong.md)
+  * [example2 : UI 選項available 前一選項為非必選時, 要呈現全部選項](avail_data_method_list/example2-ui-xuan-xiang-available-qian-yi-xuan-xiang-wei-fei-bi-xuan-shi-yao-cheng-xian-quan-bu-xuan.md)
 * [query\_sql](query_sql/README.md)
   * [example1 : Innotron 轉置功能](query_sql/example1-innotron-zhuan-zhi-gong-neng.md)
 * [PlugIn class](plugin-class.md)
