@@ -38,3 +38,7 @@
 | display\_name | V |  | UI顯示值 |
 | default\_check |  | true / false | 預設值為false |
 
+{% hint style="info" %}
+ui\__group\_style = "button" /\* 為 query\_page的mo_de\_type="new\_ds"時才有的樣式
+{% endhint %}
+
