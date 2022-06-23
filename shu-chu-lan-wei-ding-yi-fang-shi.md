@@ -13,7 +13,7 @@
 
 ### 模式一  : SQL 內直接指定
 
-* 直接在query\_sql -&gt; sql 內寫select array\_glass\_t.glass\_id , array\_glass\_t.step\_id …
+* 直接在query\_sql -> sql 內寫select array\_glass\_t.glass\_id , array\_glass\_t.step\_id …
 
 ### 模式二 : XML 內定義展開的column\_mapping
 
@@ -50,26 +50,24 @@
 {% hint style="info" %}
 走eda\_lookup 的時候, 會依據step\_id\_list\_arg 的變數內容當作 選定的step\_id , 往後拉取item 的時候, 用那些step id 去以下table 過去by step 定義的欄位
 
- select \* from ds\_lookup\_step\_item\_t where table\_name = 'ARRAY\_DEFECT\_T' AND STEP\_ID = 'T8920'
+&#x20;select \* from ds\_lookup\_step\_item\_t where table\_name = 'ARRAY\_DEFECT\_T' AND STEP\_ID = 'T8920'
 
 **ex : 我的範例当选到T8920 的时候才会出现以上sql 出来的栏位**
 {% endhint %}
 
 * **mode = "plugin\_class" , 透過plugin\_class的方式來取得**
 
-1. 此模式直接使用QT 的plugin class , 新增一組public ArrayList getColumnMapping,來讓QT product code 來呼叫plugin class 取得該欄位清單
-
-![](.gitbook/assets/unnamed%20%281%29.png)
+1. 此模式直接使用QT 的plugin class , 新增一組public ArrayList genColumnMapping,來讓QT product code 來呼叫plugin class 取得該欄位清單
 
 {% hint style="info" %}
-此種模式可以取得當UI的所有argMap , 讓plugin class 可以取得所有已經設定的UI 條件做邏輯判斷 
+此種模式可以取得當UI的所有argMap , 讓plugin class 可以取得所有已經設定的UI 條件做邏輯判斷&#x20;
 
 EX : V3 會在上面指定UI 上先選EQP\_TYPE , 才會走到欄位清單, 因此v3 可以用EQP\_TYPE 以及xml 內定義的table\_list 來決定欄位清單有哪些
 {% endhint %}
 
 ### column\_mapping : 設定取得column\_mapping 需要進行前處理 argMap
 
-1. 若是走eda\_lookup 並且需要處理到item51 , 那取得lookup 時必須先指定 step\_id\_list , 特殊情況下step\_id\_list 無法直接從UI 選完的ArgMap 中取得 \(ex : CSOT 虛擬站點\)
+1. 若是走eda\_lookup 並且需要處理到item51 , 那取得lookup 時必須先指定 step\_id\_list , 特殊情況下step\_id\_list 無法直接從UI 選完的ArgMap 中取得 (ex : CSOT 虛擬站點)
 2. 因此提供以下plugin class method 若有定義is\_need\_pre\_process\_arg\_map=”true” , 則QT 在取得column mapping 程式運作前, 會先呼叫以下method 由plugin class 自行看怎樣調整ArgMap , 並回傳給QT
 3. CSOT 案例用法是 指定step\_id\_list\_for\_lookup Arg , 而這Arg 是透過 preProcessArgMap 處理後新增至ArgMap 內
 
@@ -98,7 +96,6 @@ criteria_list
 </criteria>
 ```
 
-#### NG 呼叫後端 : 
+#### NG 呼叫後端 :&#x20;
 
-當遇到view\_type="data\_column\_picker" 的時候 固定呼叫 action\_code = get\_avail\_data\_column\_list 取得avail\_data\_column\_list 其他注意事項 : avail\_data\_column\_list 會回傳 XML 的欄位定義區塊的 column\_mapping &gt; column &gt; src\_col\_name 當作selected , display\_name 當作 ui display 回傳
-
+當遇到view\_type="data\_column\_picker" 的時候 固定呼叫 action\_code = get\_avail\_data\_column\_list 取得avail\_data\_column\_list 其他注意事項 : avail\_data\_column\_list 會回傳 XML 的欄位定義區塊的 column\_mapping > column > src\_col\_name 當作selected , display\_name 當作 ui display 回傳
