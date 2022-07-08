@@ -8,7 +8,7 @@
 </criteria>
 ```
 
-其中Criteria Attributes - result\_args , **其意義為該元件選擇值以後 , 被選擇的值要存放到哪一個變數** ; ****所以以一句話來說 : Criteria 使用到的 result\_args都必須被定義在global\_args\_define 
+其中Criteria Attributes - result\_args , **其意義為該元件選擇值以後 , 被選擇的值要存放到哪一個變數** ; **** 所以以一句話來說 : Criteria 使用到的 result\_args都必須被定義在global\_args\_define&#x20;
 
 ```markup
  <global_args_define>
@@ -28,4 +28,3 @@
         <arg name="param_id_list" from_id="param_id_list" data_type="string_array" />
 </global_args_define>
 ```
-

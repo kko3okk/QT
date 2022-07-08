@@ -9,10 +9,10 @@
 
 ### sort\_hst
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| sort\_hst\_key | V |  | 對應到**sort\_hst\_define**的key value |
-| src\_join\_column | V |  | 來源資料要被join的欄位 |
+| Attributes        | Required | Parameters | Description                        |
+| ----------------- | -------- | ---------- | ---------------------------------- |
+| sort\_hst\_key    | V        |            | 對應到**sort\_hst\_define**的key value |
+| src\_join\_column | V        |            | 來源資料要被join的欄位                      |
 
 ```markup
 <sort_hst_define id="type" label="Sort Area Type">
@@ -53,39 +53,38 @@
 {% endhint %}
 
 {% hint style="info" %}
-非常重要  :  sort\_hst\_define 中的 where condition 使用到的變數 , 
+非常重要  :  sort\_hst\_define 中的 where condition 使用到的變數 ,&#x20;
 
-1. 會先檢查ArgMap裡面有沒有存在   \(強烈建議在第一組資料生成時 , 就把變數值準備好\)
+1\. 會先檢查ArgMap裡面有沒有存在   (強烈建議在第一組資料生成時 , 就把變數值準備好)
 
-2. 沒有的話就會從第一組資料 , 做distinct後取得
+2\. 沒有的話就會從第一組資料 , 做distinct後取得
 {% endhint %}
 
 ### sort\_hst
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| sort\_hst\_key | V |  | key value |
-| display\_name | V |  | 顯示於UI的名稱 |
+| Attributes     | Required | Parameters | Description |
+| -------------- | -------- | ---------- | ----------- |
+| sort\_hst\_key | V        |            | key value   |
+| display\_name  | V        |            | 顯示於UI的名稱    |
 
 ### sort\_hst\_query\_opt
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| join\_column | V |  | 被串接資料源, join的欄位名稱 |
+| Attributes   | Required | Parameters | Description       |
+| ------------ | -------- | ---------- | ----------------- |
+| join\_column | V        |            | 被串接資料源, join的欄位名稱 |
 
 ### time\_sql
 
 取得sql要使用的時間欄位 , **start\_time &  end\_time** 為必要欄位名稱
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| use\_connection\_id | V |  | 使用connection id |
+| Attributes          | Required | Parameters | Description     |
+| ------------------- | -------- | ---------- | --------------- |
+| use\_connection\_id | V        |            | 使用connection id |
 
 ### sql
 
-query 串接資料的sql 
+query 串接資料的sql&#x20;
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| use\_connection\_id | V |  | 使用connection id |
-
+| Attributes          | Required | Parameters | Description     |
+| ------------------- | -------- | ---------- | --------------- |
+| use\_connection\_id | V        |            | 使用connection id |
