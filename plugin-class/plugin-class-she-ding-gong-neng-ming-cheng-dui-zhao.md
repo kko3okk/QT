@@ -1,7 +1,3 @@
----
-layout: editorial
----
-
 # Plugin class 設定 - 功能名稱對照
 
 
