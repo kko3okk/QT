@@ -65,7 +65,7 @@
 EX : V3 會在上面指定UI 上先選EQP\_TYPE , 才會走到欄位清單, 因此v3 可以用EQP\_TYPE 以及xml 內定義的table\_list 來決定欄位清單有哪些
 {% endhint %}
 
-### column\_mapping : 設定取得column\_mapping 需要進行前處理 argMap
+### column\_mapping : 設定取得column\_mapping 需要進行前處理 argMap <a href="#column_mapping_preprocess" id="column_mapping_preprocess"></a>
 
 1. 若是走eda\_lookup 並且需要處理到item51 , 那取得lookup 時必須先指定 step\_id\_list , 特殊情況下step\_id\_list 無法直接從UI 選完的ArgMap 中取得 (ex : CSOT 虛擬站點)
 2. 因此提供以下plugin class method 若有定義is\_need\_pre\_process\_arg\_map=”true” , 則QT 在取得column mapping 程式運作前, 會先呼叫以下method 由plugin class 自行看怎樣調整ArgMap , 並回傳給QT
