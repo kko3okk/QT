@@ -29,11 +29,3 @@
 | query\_mode                       |          | normal/simpleqt                      | 預設值=normal, simpleqt 直接串去summary report ;  normal 串到ET頁面                           |
 | next\_mode                        |          | run\_flow\_to\_flow\_summary\_report |                                                                                    |
 | next\_preference\_index           |          |                                      |                                                                                    |
-
-{% hint style="info" %}
-query\_by\_pluginclass="true"時, 程式會根據edatool\_query\_tool\_plugin\_t 的設置來決定走
-
-queryData(DS)
-
-queryData\_ET(ET)
-{% endhint %}

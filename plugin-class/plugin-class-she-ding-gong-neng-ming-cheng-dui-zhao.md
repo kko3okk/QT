@@ -24,3 +24,7 @@ layout: editorial
 {% hint style="info" %}
 總表請參考: com.tynesys.edatool.struts.query\_tool.plugin.SqlBuilderImpl
 {% endhint %}
+
+{% hint style="info" %}
+plugin\_class路徑都定義在query\_sql-class\_name
+{% endhint %}
