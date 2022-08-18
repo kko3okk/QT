@@ -9,11 +9,10 @@
 
 ### connection
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| id |  |  |  |
-| type |  | from\_tyne\_plugin\_db\_t /  | DB table :  tyne\_plugin\_db\_t |
-| plugin\_db\_id |  | number / from\_ap | from\_ap : 使用AP的Logon connection做事情 |
+| id             | V |                              |                                     |
+| -------------- | - | ---------------------------- | ----------------------------------- |
+| type           | V | from\_tyne\_plugin\_db\_t /  | DB table :  tyne\_plugin\_db\_t     |
+| plugin\_db\_id | V | number / from\_ap            | from\_ap : 使用AP的Logon connection做事情 |
 
 {% hint style="info" %}
 前景提要:  concurrent 客戶的連線數會被限制
@@ -24,6 +23,4 @@
 
 所以當Qt在建立額外連線時不可以使用dbapp account,要使用 sys account。
 {% endhint %}
-
-
 
