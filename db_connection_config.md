@@ -9,10 +9,10 @@
 
 ### connection
 
-| id             | V |                              |                                     |
-| -------------- | - | ---------------------------- | ----------------------------------- |
-| type           | V | from\_tyne\_plugin\_db\_t /  | DB table :  tyne\_plugin\_db\_t     |
-| plugin\_db\_id | V | number / from\_ap            | from\_ap : 使用AP的Logon connection做事情 |
+| id             | V |                                 |                                                                                                        |
+| -------------- | - | ------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| type           | V | from\_tyne\_plugin\_db\_t /     | DB table :  tyne\_plugin\_db\_t                                                                        |
+| plugin\_db\_id | V | number / from_ap/from\_ap\_sys_ | <p><em>from_ap_sys : spar</em></p><p><em>k模式時使用sys連線</em></p><p>from_ap : 使用AP的Logon connection做事情</p> |
 
 {% hint style="info" %}
 前景提要:  concurrent 客戶的連線數會被限制
