@@ -22,6 +22,7 @@
 | max\_count                                       |          |                                                          | 若用戶針對select 元件, 選擇內容個數操作max\_selected\_count 時, 前端直接拋出 ""\[criteria name] 選擇個數超過限制 (\[max\_selected\_count]) |
 | default\_select\_when\_one\_available            |          | true / false                                             | 預選該唯一的available                                                                                              |
 | default\_select\_and\_hide\_when\_one\_available |          | true / false                                             | 預選且該criteria 隱藏                                                                                              |
+| is\_support\_clear                               |          | true / false                                             | 是否顯示Clear Button                                                                                             |
 
 {% hint style="info" %}
 default\_select\_when\_one\_available / default\_select\_and\_hide\_when\_one\_available : **不能同時設定 , 只能設定一種**
