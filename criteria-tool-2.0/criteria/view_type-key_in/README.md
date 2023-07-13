@@ -34,7 +34,8 @@
 | max\_count                     |          |               | UI最大輸入的數量 , 超過顯示錯誤訊息 : ERR\_MSG> remains is over \[設定值] . Please reduce the list. |   |   |
 | view\_type                     |          | key\_in/input |                                                                                   |   |   |
 | default\_value                 |          |               | 預選值                                                                               |   |   |
-| show\_button                   |          | true / false  | 預設是true;當設定false，UI就只會單純設定                                                        |   |   |
+| show\_button                   |          | true / false  | 預設=true;當設定false時，UI就不會做set\_value、next\_criteria，單純只存設定值在arg內.                   |   |   |
+|                                |          |               |                                                                                   |   |   |
 
 ### file\_upload\_opt
 
