@@ -18,32 +18,35 @@
 
 ## criteria
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| replace\_separate |  |  | ex : replace\_separate = "@" 前端會將逗號替換後 , 放入arg\_map , 從preference載入時 , 再將@替換成 |
+| Attributes        | Required | Parameters | Description                                                                   |
+| ----------------- | -------- | ---------- | ----------------------------------------------------------------------------- |
+| replace\_separate |          |            | ex : replace\_separate = "@" 前端會將逗號替換後 , 放入arg\_map , 從preference載入時 , 再將@替換成 |
 
 ### keyin\_opt
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| row | V |  |  |
-| width | V |  |  |
-| is\_support\_file\_upload |  | true / false |  |
-| is\_support\_im |  | true / false |  |
-| is\_support\_source\_data\_set |  | true / false |  |
-| max\_count |  |  | UI最大輸入的數量 , 超過顯示錯誤訊息 : ERR\_MSG&gt; remains is over \[設定值\] . Please reduce the list. |
+| Attributes                     | Required | Parameters    | Description                                                                       |   |   |
+| ------------------------------ | -------- | ------------- | --------------------------------------------------------------------------------- | - | - |
+| row                            | V        |               |                                                                                   |   |   |
+| width                          | V        |               |                                                                                   |   |   |
+| is\_support\_file\_upload      |          | true / false  |                                                                                   |   |   |
+| is\_support\_im                |          | true / false  |                                                                                   |   |   |
+| is\_support\_source\_data\_set |          | true / false  |                                                                                   |   |   |
+| max\_count                     |          |               | UI最大輸入的數量 , 超過顯示錯誤訊息 : ERR\_MSG> remains is over \[設定值] . Please reduce the list. |   |   |
+| view\_type                     |          | key\_in/input |                                                                                   |   |   |
+| default\_value                 |          |               | 預選值                                                                               |   |   |
+| show\_button                   |          | true / false  | 預設是true;當設定false，UI就只會單純設定                                                        |   |   |
 
 ### file\_upload\_opt
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| is\_skip\_first |  | true / false |  |
+| Attributes      | Required | Parameters   | Description |
+| --------------- | -------- | ------------ | ----------- |
+| is\_skip\_first |          | true / false |             |
 
 ### source\_data\_set\_opt
 
-| Attributes | Required | Parameters | Description |
-| :--- | :--- | :--- | :--- |
-| pre\_select |  |  | 預選值 |
+| Attributes  | Required | Parameters | Description |
+| ----------- | -------- | ---------- | ----------- |
+| pre\_select |          |            | 預選值         |
 
 ### support\_file\_type
 
@@ -52,4 +55,3 @@
 ### desc
 
 UI上顯示的描述
-
